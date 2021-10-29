@@ -33,7 +33,7 @@ paths:
   /pet/{petId}/uploadImage:
     post:
       tags:
-      - "pet"
+      - "API Documentation"
       summary: "uploads an image"
       description: ""
       operationId: "uploadFile"
