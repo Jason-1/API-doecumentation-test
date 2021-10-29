@@ -6,7 +6,7 @@ info:
   version: "1.0.5"
   title: "API Documentation"
   contact:
-    email: "apiteam@swagger.io"
+    email: "support@shift72.com"
 host: "store.shift72.com"
 basePath: "/v2"
 tags:
