@@ -1,29 +1,33 @@
+
 ---
 swagger: "2.0"
 info:
-  description: "THIS IS A TEST\
+  description: "This is a sample server Petstore server.  You can find out more about\
+    \ Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).\
+    \  For this sample, you can use the api key `special-key` to test the authorization\
+    \ filters."
   version: "1.0.5"
-  title: "API Docs"
-  termsOfService: "TERMS"
+  title: "Swagger Petstore"
+  termsOfService: "http://swagger.io/terms/"
   contact:
-    email: "jason@shift72.com"
+    email: "apiteam@swagger.io"
   license:
-    name: "API"
-    url: ""
-host: "Shif72"
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "petstore.swagger.io"
 basePath: "/v2"
 tags:
-- name: "API"
-  description: "API Documentation test"
+- name: "pet"
+  description: "Everything about your Pets"
   externalDocs:
-    description: "API Documentation test"
-    url: "Shift72"
+    description: "Find out more"
+    url: "http://swagger.io"
 - name: "store"
-  description: "API Documentation test"
+  description: "Access to Petstore orders"
 - name: "user"
-  description: "API Documentation test"
+  description: "Operations about user"
   externalDocs:
-    description: "API Documentation test"
+    description: "Find out more about our store"
     url: "http://swagger.io"
 schemes:
 - "https"
