@@ -30,24 +30,23 @@ schemes:
 - "https"
 - "http"
 paths:
-  /services/users/v1/api_key:
+  /services/users/auth/sign_in:
     post:
       tags:
       - "API Documentation"
-      summary: "uploads an image"
+      summary: "Authenticates a sign in"
       description: ""
-      operationId: "uploadFile"
+      operationId: "SignIn"
       consumes:
       - "multipart/form-data"
       produces:
       - "application/json"
       parameters:
-      - name: "api_key"
+      - name: "email"
         in: "path"
-        description: "ID of pet to update"
+        description: "User to sign in with"
         required: true
-        type: "integer"
-        format: "int64"
+        type: "string"
       - name: "additionalMetadata"
         in: "formData"
         description: "Additional data to pass to server"
