@@ -30,7 +30,7 @@ schemes:
 - "https"
 - "http"
 paths:
-   /services/users/v1/api_key:
+   /pet/{petId}/uploadImage:
     post:
       tags:
       - "API Documentation"
