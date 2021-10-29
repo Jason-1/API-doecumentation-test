@@ -2,31 +2,28 @@
 swagger: "2.0"
 info:
   description: "THIS IS A TEST\
-    \ Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).\
-    \  For this sample, you can use the api key `special-key` to test the authorization\
-    \ filters."
   version: "1.0.5"
-  title: "Swagger Petstore"
-  termsOfService: "http://swagger.io/terms/"
+  title: "API Docs"
+  termsOfService: "TERMS"
   contact:
-    email: "apiteam@swagger.io"
+    email: "jason@shift72.com"
   license:
-    name: "Apache 2.0"
-    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
-host: "petstore.swagger.io"
+    name: "API"
+    url: ""
+host: "Shif72"
 basePath: "/v2"
 tags:
-- name: "pet"
-  description: "Everything about your Pets"
+- name: "API"
+  description: "API Documentation test"
   externalDocs:
-    description: "Find out more"
-    url: "http://swagger.io"
+    description: "API Documentation test"
+    url: "Shift72"
 - name: "store"
-  description: "Access to Petstore orders"
+  description: "API Documentation test"
 - name: "user"
-  description: "Operations about user"
+  description: "API Documentation test"
   externalDocs:
-    description: "Find out more about our store"
+    description: "API Documentation test"
     url: "http://swagger.io"
 schemes:
 - "https"
