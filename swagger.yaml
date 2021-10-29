@@ -7,8 +7,8 @@ info:
   title: "API Documentation"
   contact:
     email: "support@shift72.com"
-host: "store.shift72.com"
-basePath: ""
+host: ""
+basePath: "store.shift72.com"
 tags:
 - name: "API Documentation"
   description: "API Documentation"
@@ -26,7 +26,7 @@ schemes:
 - "https"
 - "http"
 paths:
-  store.shift72.com/services/users/auth/sign_in:
+ /services/users/auth/sign_in:
     post:
       tags:
       - "API Documentation"
