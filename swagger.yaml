@@ -11,7 +11,7 @@ info:
   license:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
-host: "petstore.swagger.io"
+host: "store.shift72.com"
 basePath: "/v2"
 tags:
 - name: "API Documentation"
