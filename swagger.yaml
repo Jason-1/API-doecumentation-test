@@ -8,7 +8,6 @@ info:
   contact:
     email: "support@shift72.com"
 host: "store.shift72.com"
-basePath: "/v2"
 tags:
 - name: "API Documentation"
   description: "API Documentation"
