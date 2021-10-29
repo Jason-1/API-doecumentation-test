@@ -44,19 +44,19 @@ paths:
       parameters:
       - name: "email"
         in: "path"
-        description: "User to sign in with"
+        description: "Email address of the user."
         required: true
         type: "string"
-      - name: "additionalMetadata"
-        in: "formData"
-        description: "Additional data to pass to server"
-        required: false
+      - name: "Password"
+        in: "path"
+        description: "User’s password."
+        required: true
         type: "string"
-      - name: "file"
-        in: "formData"
-        description: "file to upload"
+      - name: "RememberMe"
+        in: "path"
+        description: "Requests a longer session expiry. Session will extended to 30 days."
         required: false
-        type: "file"
+        type: "bool"
       responses:
         200:
           description: "successful operation"
