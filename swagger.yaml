@@ -26,7 +26,7 @@ schemes:
 - "https"
 - "http"
 paths:
- services/users/auth/sign_in:
+ /services/users/auth/sign_in:
     post:
       tags:
       - "API Documentation"
