@@ -14,7 +14,7 @@ tags:
   description: "API Documentation"
   externalDocs:
     description: "API Documentation"
-    url: "https://staging-store.shift72.com"
+    url: "staging-store.shift72.com"
 - name: "API Documentation"
   description: "API Documentation"
 - name: "user"
