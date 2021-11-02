@@ -63,7 +63,7 @@ paths:
         - "write:"
         - "read:"
         
-        definitions:
+definitions:
   ApiResponse:
     type: "object"
     properties:
