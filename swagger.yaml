@@ -14,7 +14,7 @@ tags:
   description: "API Documentation"
   externalDocs:
     description: "API Documentation"
-    url: "http://swagger.io"
+    url: "https://staging-store.shift72.com"
 - name: "API Documentation"
   description: "API Documentation"
 - name: "user"
@@ -57,7 +57,7 @@ paths:
         200:
           description: "successful operation"
           schema:
-            $ref: "https://staging-store.shift72.com/services/users/auth/sign_in"
+            $ref: "#/services/users/auth/sign_in"
       security:
       - shift_auth:
         - "write:"
