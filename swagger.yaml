@@ -7,7 +7,7 @@ info:
   title: "API Documentation"
   contact:
     email: "support@shift72.com"
-host: ""
+host: "https://staging-store.shift72.com"
 basePath: "staging-store.shift72.com"
 tags:
 - name: "API Documentation"
