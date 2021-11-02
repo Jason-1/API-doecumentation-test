@@ -57,7 +57,7 @@ paths:
         200:
           description: "successful operation"
           schema:
-            $ref: "#/services/users/auth/sign_in"
+            $ref: "#/definitions/ApiResponse"
       security:
       - shift_auth:
         - "write:"
