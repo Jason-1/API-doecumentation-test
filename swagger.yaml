@@ -58,10 +58,6 @@ paths:
           description: "successful operation"
           schema:
             $ref: "#/definitions/ApiResponse"
-      security:
-      - shift_auth:
-        - "write:"
-        - "read:"
         
 definitions:
   ApiResponse:
