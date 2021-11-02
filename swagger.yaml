@@ -59,7 +59,7 @@ paths:
           schema:
             $ref: "https://staging-store.shift72.com/services/users/auth/sign_in"
       security:
-      - petstore_auth:
-        - "write:pets"
-        - "read:pets"
+      - shift_auth:
+        - "write:"
+        - "read:"
   
