@@ -8,7 +8,7 @@ info:
   contact:
     email: "support@shift72.com"
 host: "staging-store.shift72.com"
-basePath: ""
+basePath: "/"
 tags:
 - name: "API Documentation"
   description: "API Documentation"
@@ -26,7 +26,7 @@ schemes:
 - "https"
 - "http"
 paths:
- /services/users/auth/sign_in:
+ services/users/auth/sign_in:
     post:
       tags:
       - "API Documentation"
@@ -67,10 +67,9 @@ definitions:
   ApiResponse:
     type: "object"
     properties:
-      code:
-        type: "integer"
-        format: "int32"
-      type:
+      auth_token:
+        type: "string"
+      account:
         type: "string"
       message:
         type: "string"
