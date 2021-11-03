@@ -64,13 +64,13 @@ securityDefinitions:
     type: "apiKey"
     name: "api_key"
     in: "header"
-  petstore_auth:
+  auth:
     type: "oauth2"
-    authorizationUrl: "https://petstore.swagger.io/oauth/authorize"
+    authorizationUrl: "https://staging-store.shift72.com/io/authorize"
     flow: "implicit"
     scopes:
-      read:pets: "read your pets"
-      write:pets: "modify pets in your account"
+      read:TEST: "read data"
+      write:TEST: "write data"
         
 definitions:
   ApiResponse:
