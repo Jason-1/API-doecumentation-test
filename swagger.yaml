@@ -15,7 +15,7 @@ tags:
   externalDocs:
     description: "API Documentation"
     url: "staging-store.shift72.com"
-- name: "API Documentation"
+- name: "API Documentation 2"
   description: "API Documentation 2"
   externalDocs:
     description: "API Documentation"
@@ -24,7 +24,7 @@ tags:
   description: "API Documentation"
   externalDocs:
     description: "API Documentation"
-    url: "http://swagger.io"
+    url: "staging-store.shift72.com"
 schemes:
 - "https"
 - "http"
