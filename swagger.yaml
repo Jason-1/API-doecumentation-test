@@ -39,7 +39,7 @@ paths:
       consumes:
       - "multipart/form-data"
       produces:
-      - "application/json"
+      - "application/json;charset=UTF-8'"
       parameters:
       - name: "email"
         in: "path"
