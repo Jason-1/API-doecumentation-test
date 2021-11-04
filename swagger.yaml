@@ -16,7 +16,7 @@ tags:
     description: "API Documentation"
     url: "staging-store.shift72.com"
 - name: "API Documentation"
-    description: "API Documentation"
+  description: "API Documentation"
     url: "http://swagger.io"
 - name: "user"
   description: "API Documentation"
