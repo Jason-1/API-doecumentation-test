@@ -120,7 +120,7 @@ definitions:
       message:
         type: "string"
         
- User:
+  User:
     type: "object"
     properties:
       id:
