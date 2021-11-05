@@ -124,3 +124,5 @@ definitions:
         type: "string"
       password:
         type: "string"
+      remember_me:
+        type: "bool"
