@@ -49,7 +49,7 @@ paths:
         schema:
           type: "array"
           items:
-            $ref: "#/definitions/User"
+            $ref: "#/definitions/TEST"
       responses:
         default:
           description: "successful operation"
