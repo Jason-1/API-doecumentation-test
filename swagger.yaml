@@ -42,17 +42,17 @@ paths:
       - "application/json"
       parameters:
       - name: "email"
-        in: "path"
+        in: "body"
         description: "Email address of the user."
         required: true
         type: "string"
       - name: "Password"
-        in: "path"
+        in: "body"
         description: "User’s password."
         required: true
         type: "string"
       - name: "RememberMe"
-        in: "path"
+        in: "body"
         description: "Requests a longer session expiry. Session will extended to 30 days."
         required: false
         type: "bool"
