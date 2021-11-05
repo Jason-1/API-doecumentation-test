@@ -113,8 +113,9 @@ definitions:
         type: "string"
       
   TEST:
-    user:
-    $ref: "#/definitions/User"
+    properties:
+      user:
+      $ref: "#/definitions/User"
       
   User:
     type: "object"
