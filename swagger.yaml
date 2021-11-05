@@ -32,35 +32,27 @@ paths:
  /services/users/auth/sign_in:
     post:
       tags:
-      - "API Documentation"
-      summary: "Authenticates a sign in"
+      - "user"
+      summary: "Creates list of users with given input array"
       description: ""
-      operationId: "SignIn"
+      operationId: "createUsersWithArrayInput"
       consumes:
-      - "multipart/form-data"
+      - "application/json"
       produces:
       - "application/json"
+      - "application/xml"
       parameters:
-      - name: "email"
-        in: "body"
-        description: "Email address of the user."
+      - in: "body"
+        name: "body"
+        description: "List of user object"
         required: true
-        type: "string"
-      - name: "Password"
-        in: "body"
-        description: "User’s password."
-        required: true
-        type: "string"
-      - name: "RememberMe"
-        in: "body"
-        description: "Requests a longer session expiry. Session will extended to 30 days."
-        required: false
-        type: "bool"
+        schema:
+          type: "array"
+          items:
+            $ref: "#/definitions/User"
       responses:
-        200:
+        default:
           description: "successful operation"
-          schema:
-            $ref: "#/definitions/ApiResponse"
             
             
             
