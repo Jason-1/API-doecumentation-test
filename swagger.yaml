@@ -47,7 +47,7 @@ paths:
         description: "List of user object"
         required: true
         schema:
-          type: "array"
+          type: "object"
           items:
             $ref: "#/definitions/TEST"
       responses:
