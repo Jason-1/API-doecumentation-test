@@ -66,10 +66,10 @@ paths:
             
             
             
-/user/test:
+/test:
     post:
       tags:
-      - "pet"
+      - "user"
       summary: "Add a new pet to the store"
       description: ""
       operationId: "addPet"
