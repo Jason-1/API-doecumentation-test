@@ -120,6 +120,6 @@ definitions:
     type: "object"
     properties:
       email:
-        type: "jason@shift72.com"
+        type: "string"
       password:
-        type: "aasd123"
+        type: "string"
