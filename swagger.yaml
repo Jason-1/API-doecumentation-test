@@ -78,7 +78,7 @@ paths:
         schema:
           type: "array"
           items:
-            $ref: "#/definitions/User"
+            $ref: "#/definitions/TEST"
       responses:
         default:
           description: "successful operation"
@@ -111,7 +111,11 @@ definitions:
         type: "string"
       message:
         type: "string"
-        
+      
+  TEST:
+    user:
+    $ref: "#/definitions/User"
+      
   User:
     type: "object"
     properties:
