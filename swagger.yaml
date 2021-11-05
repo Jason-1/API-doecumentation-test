@@ -47,9 +47,7 @@ paths:
         description: "List of user object"
         required: true
         schema:
-          type: "object"
-          items:
-            $ref: "#/definitions/TEST"
+          $ref: "#/definitions/TEST"
       responses:
         default:
           description: "successful operation"
