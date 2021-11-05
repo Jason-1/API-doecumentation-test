@@ -115,7 +115,7 @@ definitions:
   TEST:
     properties:
       user:
-      $ref: "#/definitions/User"
+        $ref: "#/definitions/User"
       
   User:
     type: "object"
