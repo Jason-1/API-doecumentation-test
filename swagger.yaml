@@ -46,6 +46,8 @@ paths:
         description: "Email address of the user."
         required: true
         type: "string"
+        schema:
+          $ref: "#/definitions/Pet"
       - name: "Password"
         in: "path"
         description: "User’s password."
