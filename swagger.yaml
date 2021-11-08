@@ -125,5 +125,5 @@ definitions:
         type: "string"
         example: "passw0rd"
       remember_me:
-        type: "bool"
+        type: "string"
         example: "false"
