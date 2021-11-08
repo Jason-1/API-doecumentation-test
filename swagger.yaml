@@ -126,4 +126,4 @@ definitions:
         example: "passw0rd"
       remember_me:
         type: "false"
-        
+        example: "false"
