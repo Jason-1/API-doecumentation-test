@@ -39,6 +39,23 @@ paths:
         schema:
           $ref: "#/definitions/TEST"
       responses:
+        200:
+          description: "successful operation"
+      security:
+            
+ /services/users/v1/api_key:
+    get:
+      tags:
+      - "User"
+      summary: "Get the currently active System API Key"
+      description: "Use this API to get the currently active System API Key. This API is only accessible to users who have the admin role."
+      operationId: "createUsersWithArrayInput"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      responses:
         default:
           description: "successful operation"
             
