@@ -58,13 +58,6 @@ paths:
       produces:
       - "application/json"
       - "application/xml"
-      parameters:
-      - in: "body"
-        name: "body"
-        description: "List of user object"
-        required: true
-        schema:
-            $ref: "#/definitions/TEST"
       responses:
         default:
           description: "successful operation"
