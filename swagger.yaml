@@ -57,6 +57,8 @@ paths:
       responses:
         default:
           description: "successful operation"
+      security:
+      - api_key: []
 
   
 
