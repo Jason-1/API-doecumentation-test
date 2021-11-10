@@ -10,18 +10,8 @@ info:
 host: "staging-store.shift72.com"
 basePath: "/"
 tags:
-- name: "API Documentation"
-  description: "API Documentation"
-  externalDocs:
-    description: "API Documentation"
-    url: "staging-store.shift72.com"
-- name: "API Documentation 2"
-  description: "API Documentation 2"
-  externalDocs:
-    description: "API Documentation"
-    url: "staging-store.shift72.com"
 - name: "User"
-  description: "API Documentation"
+  description: "The user service is responsible for managing user registrations."
   externalDocs:
     description: "API Documentation"
     url: "staging-store.shift72.com"
