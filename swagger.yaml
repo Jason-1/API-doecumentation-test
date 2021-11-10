@@ -41,10 +41,6 @@ paths:
       responses:
         200:
           description: "successful operation"
-      security:
-      - petstore_auth:
-        - "write:pets"
-        - "read:pets"
             
  /services/users/v1/api_key:
     get:
@@ -61,10 +57,7 @@ paths:
       responses:
         default:
           description: "successful operation"
-      security:
-      - petstore_auth:
-        - "write:pets"
-        - "read:pets" 
+
          
             
             
