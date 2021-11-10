@@ -25,7 +25,7 @@ paths:
       - "User"
       summary: "Creates list of users with given input array"
       description: ""
-      operationId: "createUsersWithArrayInput"
+      operationId: "SignIn"
       consumes:
       - "application/json"
       produces:
@@ -48,7 +48,7 @@ paths:
       - "User"
       summary: "Get the currently active System API Key"
       description: "Use this API to get the currently active System API Key. This API is only accessible to users who have the admin role."
-      operationId: "createUsersWithArrayInput"
+      operationId: "GetAPIKey"
       consumes:
       - "application/json"
       produces:
