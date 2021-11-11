@@ -42,7 +42,7 @@ paths:
         200:
           description: "successful operation"
           schema:
-            $ref: "#/definitions/TEST"
+            $ref: "#/definitions/Signin200"
         422:
           description: "Failure"
           schema:
@@ -133,12 +133,31 @@ definitions:
         type: "string"
       message:
         type: "string"
-  Signin422:
+  Signin200:
     type: "object"
     properties:
-      error:
+      auth_token:
         type: "string"
-        example: "Try again, your email or password is incorrect"
+        example: "ea34011c0c0e434bf7fb8365cd9185ba"
+     account:
+        account:
+          type: "object"
+          properties:
+            email:
+              type: "string"
+              example: "user@example.com"
+            password:
+              type: "string"
+              example: "passw0rd"
+            remember_me:
+              type: "string"
+              example: "false"
+        Signin422:
+          type: "object"
+          properties:
+            error:
+              type: "string"
+              example: "Try again, your email or password is incorrect"
     
       
   TEST:
