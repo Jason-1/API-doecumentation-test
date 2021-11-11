@@ -159,8 +159,27 @@ definitions:
       gender:
         type: "string"
         example: "male"
+      users:
+        $ref: "#/definitions/User_Array"
+  User_Array:
+    type: "array"
+    properties:
+      error:
+        type: "string"
+        example: "Try again, your email or password is incorrect"        
         
         
+        
+        
+        
+       
+  Signin422:
+    type: "object"
+    properties:
+      error:
+        type: "string"
+        example: "Try again, your email or password is incorrect"
+       
         
       
   TEST:
