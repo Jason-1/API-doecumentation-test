@@ -41,6 +41,8 @@ paths:
       responses:
         200:
           description: "successful operation"
+        422:
+          description: "Failure"
             
  /services/users/v1/api_key:
     get:
