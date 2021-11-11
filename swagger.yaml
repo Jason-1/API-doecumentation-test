@@ -166,7 +166,7 @@ definitions:
         items:
           xml:
             name: "user_array"
-        $ref: "#/definitions/User_Array"
+          $ref: "#/definitions/User_Array"
       bypass_cache: 
         type: "string"
         example: "false"
