@@ -161,6 +161,11 @@ definitions:
         example: "male"
       users:
         type: "array"
+        xml:
+          wrapped: true
+        items:
+          xml:
+            name: "user_array"
         $ref: "#/definitions/User_Array"
       bypass_cache: 
         type: "string"
@@ -168,9 +173,30 @@ definitions:
   User_Array:
     type: "object"
     properties:
-      error:
+      user_id:
         type: "string"
-        example: "Try again, your email or password is incorrect"        
+        example: "947"
+      email:
+        type: "string"
+        example: "user@example.com"
+      name:
+        type: "string"
+        example: "Joe"    
+      avatar_url:
+        type: "string"
+        example: "null"   
+      access_code:
+        type: "string"
+        example: "null"   
+      account_admin:
+        type: "string"
+        example: "true"           
+      dob:
+        type: "string"
+        example: "2000-01-31"       
+      gender:
+        type: "string"
+        example: "male"        
         
      
         
