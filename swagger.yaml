@@ -169,7 +169,7 @@ definitions:
             name: "user_array"
           $ref: "#/definitions/User_Array"
       bypass_cache: 
-        type: 'false'
+        type: "boolean"
 
   User_Array:
     type: "object"
