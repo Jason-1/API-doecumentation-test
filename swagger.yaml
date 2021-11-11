@@ -159,7 +159,7 @@ definitions:
         example: "2000-01-31"       
       gender:
         type: "string"
-        example: "male"           
+        example: "male"
         
         
         
