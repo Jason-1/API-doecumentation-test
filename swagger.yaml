@@ -142,7 +142,6 @@ definitions:
       account:
         $ref: "#/definitions/Account"
   Account:
-    type:
     type: "object"
     properties:
       user_id:
