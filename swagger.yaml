@@ -140,19 +140,29 @@ definitions:
         type: "string"
         example: "ea34011c0c0e434bf7fb8365cd9185ba"
      account:
+       $ref: "#/definitions/Account"
+  Account:
+    type:
     type: "object"
     properties:
+      user_id:
+        type: "string"
+        example: "947"
       email:
         type: "string"
         example: "user@example.com"
-      password:
+      name:
         type: "string"
-        example: "passw0rd"
-      remember_me:
+        example: "Joe"        
+      dob:
         type: "string"
-        example: "false"
+        example: "2000-01-31"       
+      gender:
+        type: "string"
+        example: "male"           
         
-    
+        
+        
       
   TEST:
     properties:
