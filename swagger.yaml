@@ -71,7 +71,7 @@ securityDefinitions:
     type: "apiKey"
     name: "api_key"
     in: "header"
-  x-auth-token:
+  X-Auth Admin:
     type: "apiKey"
     name: "x-auth-token"
     in: "header"
