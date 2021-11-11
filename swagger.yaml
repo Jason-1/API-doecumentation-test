@@ -55,14 +55,14 @@ paths:
       - "application/json"
       - "application/xml"
       responses:
-        default:
+        200:
           description: "successful operation"
       security:
       - X-Auth-Admin: []
     post:
       tags:
       - "User"
-      summary: "Request a new System API Ke"
+      summary: "Request a new System API Key"
       description: "Use this API to get a new System API Key. This deactivates the previously used System API Key. This API is only accessible to users who have the admin role."
       operationId: "APIKeyUpdate"
       consumes:
@@ -71,14 +71,28 @@ paths:
       - "application/json"
       - "application/xml"
       responses:
-        default:
+        200:
           description: "successful operation"
       security:
       - X-Auth-Admin: []
 
-  
-
-            
+ /services/users/auth/bouncer:
+    get:
+      tags:
+      - "User"
+      summary: "Check if the signed in user has admin permissions"
+      description: "Use this API if you want to check if the signed in user has the admin role. This is often used after the Sign In API call when accessing an admin area. The benefit of this is that if the user is not an administrator, bouncer will sign the user out and you can display an appropriate message about the user not being an administrator. Otherwise API calls that require admin access will return an HTTP response code of 401, Unauthorized, which is the same response as if the session has expired."
+      operationID: "APIKeyUpdate"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      responses:
+        200:
+          description: "successful operation"
+      security:
+      - X-Auth-Admin: [
             
             
         
