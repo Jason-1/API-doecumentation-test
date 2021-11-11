@@ -58,7 +58,7 @@ paths:
         default:
           description: "successful operation"
       security:
-      - x-auth-token: []
+      - X-Auth-Admin: []
     post:
       tags:
       - "User"
@@ -74,7 +74,7 @@ paths:
         default:
           description: "successful operation"
       security:
-      - x-auth-token: []
+      - X-Auth-Admin: []
 
   
 
@@ -87,7 +87,7 @@ securityDefinitions:
     type: "apiKey"
     name: "api_key"
     in: "header"
-  X-Auth Admin:
+  X-Auth-Admin:
     type: "apiKey"
     name: "x-auth-token"
     in: "header"
