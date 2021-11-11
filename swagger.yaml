@@ -46,7 +46,7 @@ paths:
         422:
           description: "Failure"
           schema:
-            $ref: "#/definitions/TEST"
+            $ref: "#/definitions/Signin422"
             
  /services/users/v1/api_key:
     get:
@@ -133,6 +133,13 @@ definitions:
         type: "string"
       message:
         type: "string"
+  Signin422:
+    type: "object"
+    properties:
+      error:
+        type: "string"
+        example: "Try again, your email or password is incorrect"
+    
       
   TEST:
     properties:
