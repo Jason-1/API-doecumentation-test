@@ -41,10 +41,12 @@ paths:
       responses:
         200:
           description: "successful operation"
-          $ref: "#/definitions/TEST"
+          schema:
+            $ref: "#/definitions/TEST"
         422:
           description: "Failure"
-          $ref: "#/definitions/TEST"
+          schema:
+            $ref: "#/definitions/TEST"
             
  /services/users/v1/api_key:
     get:
