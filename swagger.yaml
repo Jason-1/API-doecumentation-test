@@ -73,7 +73,7 @@ securityDefinitions:
     in: "header"
   x-auth-token:
     type: "apiKey"
-    name: "api_key"
+    name: "x-auth-token"
     in: "header"
   auth:
     type: "oauth2"
