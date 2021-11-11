@@ -92,7 +92,7 @@ paths:
         200:
           description: "successful operation"
       security:
-      - X-Auth-Admin: [
+      - X-Auth-Admin: []
             
             
         
