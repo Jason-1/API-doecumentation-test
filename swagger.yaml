@@ -170,7 +170,7 @@ definitions:
           $ref: "#/definitions/User_Array"
       bypass_cache: 
         type: "string"
-        example: "false"
+        example: 'false'
   User_Array:
     type: "object"
     properties:
