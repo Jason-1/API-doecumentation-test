@@ -145,7 +145,8 @@ definitions:
     type: "object"
     properties:
       user_id:
-        type: "string"
+        type: "integer"
+        format: "int64"
         example: "947"
       email:
         type: "string"
