@@ -169,8 +169,8 @@ definitions:
             name: "user_array"
           $ref: "#/definitions/User_Array"
       bypass_cache: 
-        type: "string"
-        example: 'false'
+        type: 'false'
+
   User_Array:
     type: "object"
     properties:
