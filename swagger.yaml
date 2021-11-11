@@ -62,8 +62,8 @@ paths:
     post:
       tags:
       - "User"
-      summary: "Get the currently active System API Key"
-      description: "Use this API to get the currently active System API Key. This API is only accessible to users who have the admin role."
+      summary: "Request a new System API Ke"
+      description: "Use this API to get a new System API Key. This deactivates the previously used System API Key. This API is only accessible to users who have the admin role."
       operationId: "APIKeyUpdate"
       consumes:
       - "application/json"
