@@ -160,15 +160,19 @@ definitions:
         type: "string"
         example: "male"
       users:
+        type: "array"
         $ref: "#/definitions/User_Array"
+      bypass_cache: 
+        type: "string"
+        example: "false"
   User_Array:
-    type: "array"
+    type: "object"
     properties:
       error:
         type: "string"
         example: "Try again, your email or password is incorrect"        
         
-        
+     
         
         
         
