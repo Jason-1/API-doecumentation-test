@@ -58,7 +58,7 @@ paths:
         default:
           description: "successful operation"
       security:
-      - api_key: []
+      - x-auth-token: []
 
   
 
@@ -71,6 +71,10 @@ securityDefinitions:
     type: "apiKey"
     name: "api_key"
     in: "header"
+  x-auth-token:
+    type: "apiKey"
+    name: "api_key"
+    in: "header"
   auth:
     type: "oauth2"
     authorizationUrl: "https://staging-store.shift72.com/io/authorize"
@@ -78,6 +82,7 @@ securityDefinitions:
     scopes:
       read:TEST: "read data"
       write:TEST: "write data"
+      
       
  
         
