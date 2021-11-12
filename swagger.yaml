@@ -191,7 +191,7 @@ definitions:
         type: "string"
         example: "null"   
       account_admin:
-        type: "string"
+        type: "boolean"
         example: "true"           
       dob:
         type: "string"
