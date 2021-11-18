@@ -11,7 +11,7 @@ host: "staging-store.shift72.com"
 basePath: "/"
 tags:
 - name: "Sign-ins and API Keys"
-  description: "The user service is responsible for managing user registrations."
+  description: "Endpoints related to logging in and out, and accessing authentication keys"
   externalDocs:
     description: "API Documentation"
     url: "staging-store.shift72.com"
