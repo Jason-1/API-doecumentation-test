@@ -10,7 +10,7 @@ info:
 host: "staging-store.shift72.com"
 basePath: "/"
 tags:
-- name: "User"
+- name: "Sign-ins and API Keys"
   description: "The user service is responsible for managing user registrations."
   externalDocs:
     description: "API Documentation"
@@ -22,7 +22,7 @@ paths:
  /services/users/auth/sign_in:
     post:
       tags:
-      - "User"
+      - "Sign-ins and API Keys"
       summary: "Creates list of users with given input array"
       description: ""
       operationId: "SignIn"
@@ -35,7 +35,7 @@ paths:
       - in: "body"
         name: "body"
         description: "List of user object"
-        required: true
+        required: "true"
         schema:
           $ref: "#/definitions/TEST"
       responses:
@@ -51,7 +51,7 @@ paths:
  /services/users/v1/api_key:
     get:
       tags:
-      - "User"
+      - "Sign-ins and API Keys"
       summary: "Get the currently active System API Key"
       description: "Use this API to get the currently active System API Key. This API is only accessible to users who have the admin role."
       operationId: "GetAPIKey"
@@ -67,7 +67,7 @@ paths:
       - X-Auth-Admin: []
     post:
       tags:
-      - "User"
+      - "Sign-ins and API Keys"
       summary: "Request a new System API Key"
       description: "Use this API to get a new System API Key. This deactivates the previously used System API Key. This API is only accessible to users who have the admin role."
       operationId: "APIKeyUpdate"
@@ -85,7 +85,7 @@ paths:
  /services/users/auth/bouncer:
     get:
       tags:
-      - "User"
+      - "Sign-ins and API Keys"
       summary: "Check if the signed in user has admin permissions"
       description: "Use this API if you want to check if the signed in user has the admin role. This is often used after the Sign In API call when accessing an admin area. The benefit of this is that if the user is not an administrator, bouncer will sign the user out and you can display an appropriate message about the user not being an administrator. Otherwise API calls that require admin access will return an HTTP response code of 401, Unauthorized, which is the same response as if the session has expired."
       operationID: "APIKeyUpdate"
