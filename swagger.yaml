@@ -220,17 +220,7 @@ definitions:
         $ref: "#/definitions/User"
       
   User:
-    type: "object"
-    properties:
-      email:
-        type: "string"
-        example: "user@example.com"
-      password:
-        type: "string"
-        example: "passw0rd"
-      remember_me:
-        type: "string"
-        example: "false"
+    $ref: "./Definitions/User.yaml"
         
         
      

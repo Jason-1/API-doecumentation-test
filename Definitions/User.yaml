@@ -1,11 +1,11 @@
-type: "object"
-properties:
-  email:
-    type: "string"
-    example: "user@example.com"
-  password:
-    type: "string"
-    example: "passw0rd"
-  remember_me:
-    type: "string"
-    example: "false"
+    type: "object"
+    properties:
+      email:
+        type: "string"
+        example: "user@example.com"
+      password:
+        type: "string"
+        example: "passw0rd"
+      remember_me:
+        type: "boolean"
+        example: "false"
