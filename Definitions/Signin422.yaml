@@ -1,0 +1,5 @@
+    type: "object"
+    properties:
+      error:
+        type: "string"
+        example: "Try again, your email or password is incorrect"

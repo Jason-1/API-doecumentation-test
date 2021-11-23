@@ -1,0 +1,7 @@
+    type: "object"
+    properties:
+      auth_token:
+        type: "string"
+        example: "ea34011c0c0e434bf7fb8365cd9185ba"
+      account:
+        $ref: "./Account.yaml"

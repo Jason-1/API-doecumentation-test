@@ -1,0 +1,3 @@
+    properties:
+      user:
+        $ref: "./User.yaml"
