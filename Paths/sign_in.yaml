@@ -1,0 +1,27 @@
+    post:
+      tags:
+      - "Sign-ins and API Keys"
+      summary: "Creates list of users with given input array"
+      description: ""
+      operationId: "SignIn"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "List of user object"
+        required: "true"
+        schema:
+          $ref: "../Definitions/Test.yaml"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            $ref: "../Definitions/Signin200.yaml"
+        422:
+          description: "Failure"
+          schema:
+            $ref: "../Definitions/Signin422.yaml"

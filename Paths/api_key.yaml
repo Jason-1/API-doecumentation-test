@@ -1,0 +1,32 @@
+    get:
+      tags:
+      - "Sign-ins and API Keys"
+      summary: "Get the currently active System API Key"
+      description: "Use this API to get the currently active System API Key. This API is only accessible to users who have the admin role."
+      operationId: "GetAPIKey"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      responses:
+        200:
+          description: "successful operation"
+      security:
+      - X-Auth-Admin: []
+    post:
+      tags:
+      - "Sign-ins and API Keys"
+      summary: "Request a new System API Key"
+      description: "Use this API to get a new System API Key. This deactivates the previously used System API Key. This API is only accessible to users who have the admin role."
+      operationId: "APIKeyUpdate"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      responses:
+        200:
+          description: "successful operation"
+      security:
+      - X-Auth-Admin: []

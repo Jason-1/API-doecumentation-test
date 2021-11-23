@@ -18,122 +18,31 @@ tags:
 schemes:
 - "https"
 - "http"
+
 paths:
  /services/users/auth/sign_in:
-    post:
-      tags:
-      - "Sign-ins and API Keys"
-      summary: "Creates list of users with given input array"
-      description: ""
-      operationId: "SignIn"
-      consumes:
-      - "application/json"
-      produces:
-      - "application/json"
-      - "application/xml"
-      parameters:
-      - in: "body"
-        name: "body"
-        description: "List of user object"
-        required: "true"
-        schema:
-          $ref: "#/definitions/TEST"
-      responses:
-        200:
-          description: "successful operation"
-          schema:
-            $ref: "./Definitions/Signin200.yaml"
-        422:
-          description: "Failure"
-          schema:
-            $ref: "#/definitions/Signin422"
-            
+      $ref: "./Paths/sign_in.yaml"           
  /services/users/v1/api_key:
-    get:
-      tags:
-      - "Sign-ins and API Keys"
-      summary: "Get the currently active System API Key"
-      description: "Use this API to get the currently active System API Key. This API is only accessible to users who have the admin role."
-      operationId: "GetAPIKey"
-      consumes:
-      - "application/json"
-      produces:
-      - "application/json"
-      - "application/xml"
-      responses:
-        200:
-          description: "successful operation"
-      security:
-      - X-Auth-Admin: []
-    post:
-      tags:
-      - "Sign-ins and API Keys"
-      summary: "Request a new System API Key"
-      description: "Use this API to get a new System API Key. This deactivates the previously used System API Key. This API is only accessible to users who have the admin role."
-      operationId: "APIKeyUpdate"
-      consumes:
-      - "application/json"
-      produces:
-      - "application/json"
-      - "application/xml"
-      responses:
-        200:
-          description: "successful operation"
-      security:
-      - X-Auth-Admin: []
-
+      $ref: "./Paths/api_key.yaml"
  /services/users/auth/bouncer:
-    get:
-      tags:
-      - "Sign-ins and API Keys"
-      summary: "Check if the signed in user has admin permissions"
-      description: "Use this API if you want to check if the signed in user has the admin role. This is often used after the Sign In API call when accessing an admin area. The benefit of this is that if the user is not an administrator, bouncer will sign the user out and you can display an appropriate message about the user not being an administrator. Otherwise API calls that require admin access will return an HTTP response code of 401, Unauthorized, which is the same response as if the session has expired."
-      operationID: "APIKeyUpdate"
-      consumes:
-      - "application/json"
-      produces:
-      - "application/json"
-      - "application/xml"
-      responses:
-        200:
-          description: "successful operation"
-      security:
-      - X-Auth-Admin: []
-            
-            
-        
-securityDefinitions:
-  api_key:
-    type: "apiKey"
-    name: "api_key"
-    in: "header"
-  X-Auth-Admin:
-    type: "apiKey"
-    name: "x-auth-token"
-    in: "header"
-    description: "Admin Authorization, Use the Users/auth/signin endpoint to generate this key."
-  auth:
-    type: "oauth2"
-    authorizationUrl: "https://staging-store.shift72.com/io/authorize"
-    flow: "implicit"
-    scopes:
-      read:TEST: "read data"
-      write:TEST: "write data"
-      
-      
- 
-        
+       $ref: "./Paths/bouncer.yaml"       
+securityDefinitions:   
+   api_key:
+     type: "apiKey"
+     name: "api_key"
+     in: "header"
+   X-Auth-Admin:
+      type: "apiKey"
+      name: "x-auth-token"
+      in: "header"
+      description: "Admin Authorization, Use the Users/auth/signin endpoint to generate this key."
+   auth:
+     type: "oauth2"
+     authorizationUrl: "https://staging-store.shift72.com/io/authorize"
+     flow: "implicit"
+     scopes:
+       read:TEST: "read data"
+       write:TEST: "write data"       
 definitions:
   ApiResponse:
-    $ref: "./Definitions/ApiResponse.yaml"  
-#  Signin200:
-#    $ref: "./Definitions/Signin200.yaml"  
-  Signin422:
-    $ref: "./Definitions/Signin422.yaml"  
-  TEST:
-    $ref: "./Definitions/Test.yaml"    
-  User:
-    $ref: "./Definitions/User.yaml"
-        
-        
-     
+    $ref: "./Definitions/ApiResponse.yaml"       

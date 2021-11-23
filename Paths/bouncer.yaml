@@ -1,0 +1,16 @@
+    get:
+      tags:
+      - "Sign-ins and API Keys"
+      summary: "Check if the signed in user has admin permissions"
+      description: "Use this API if you want to check if the signed in user has the admin role. This is often used after the Sign In API call when accessing an admin area. The benefit of this is that if the user is not an administrator, bouncer will sign the user out and you can display an appropriate message about the user not being an administrator. Otherwise API calls that require admin access will return an HTTP response code of 401, Unauthorized, which is the same response as if the session has expired."
+      operationID: "APIKeyUpdate"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      responses:
+        200:
+          description: "successful operation"
+      security:
+      - X-Auth-Admin: []
