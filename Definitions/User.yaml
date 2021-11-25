@@ -2,7 +2,7 @@
     properties:
       email:
         type: "string"
-        example: "jason@example.com"
+        example: "user@example.com"
       password:
         type: "string"
         example: "passw0rd"
