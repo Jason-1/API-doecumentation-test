@@ -25,7 +25,8 @@ paths:
  /services/users/v1/api_key:
       $ref: "./Paths/api_key.yaml"
  /services/users/auth/bouncer:
-       $ref: "./Paths/bouncer.yaml"       
+       $ref: "./Paths/bouncer.yaml"  
+
 securityDefinitions:   
    api_key:
      type: "apiKey"
@@ -42,7 +43,8 @@ securityDefinitions:
      flow: "implicit"
      scopes:
        read:TEST: "read data"
-       write:TEST: "write data"       
+       write:TEST: "write data" 
+             
 definitions:
   ApiResponse:
     $ref: "./Definitions/ApiResponse.yaml"       
