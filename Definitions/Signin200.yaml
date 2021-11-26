@@ -4,7 +4,6 @@
         type: "string"
         example: "ea34011c0c0e434bf7fb8365cd9185ba"
       account:
-        #$ref: "./Account.yaml"
         type: "object"
         properties:
           user_id:
@@ -30,7 +29,6 @@
             items:
               xml:
                 name: "user_array"
-              #$ref: "./User_Array.yaml"
               type: "object"
               properties:
                 user_id:

@@ -46,5 +46,5 @@ securityDefinitions:
        write:TEST: "write data" 
              
 definitions:
-  ApiResponse:
-    $ref: "./Definitions/ApiResponse.yaml"       
+  Sign_in_call:
+    $ref: "./Definitions/Sign_in_call.yaml"       

@@ -1,8 +1,0 @@
-    type: "object"
-    properties:
-      auth_token:
-        type: "string"
-      account:
-        type: "string"
-      message:
-        type: "string"

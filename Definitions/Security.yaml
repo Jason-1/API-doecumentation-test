@@ -1,4 +1,0 @@
-    type: "apiKey"
-    name: "x-auth-token"
-    in: "header"
-    description: "Admin Authorization, Use the Users/auth/signin endpoint to generate this key."
