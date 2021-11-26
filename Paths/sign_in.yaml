@@ -15,7 +15,7 @@
         description: "List of user object"
         required: "true"
         schema:
-          $ref: "../Definitions/Test.yaml"
+          $ref: "../Definitions/Sign_in_call.yaml"
       responses:
         200:
           description: "successful operation"
