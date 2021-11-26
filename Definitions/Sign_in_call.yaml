@@ -1,3 +1,14 @@
     properties:
       user:
-        $ref: "./User.yaml"
+        #$ref: "./User.yaml"
+        type: "object"
+        properties:
+          email:
+            type: "string"
+            example: "user@example.com"
+          password:
+            type: "string"
+            example: "passw0rd"
+          remember_me:
+            type: "boolean"
+            example: "false"

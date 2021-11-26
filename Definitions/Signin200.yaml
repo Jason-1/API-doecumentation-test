@@ -4,4 +4,67 @@
         type: "string"
         example: "ea34011c0c0e434bf7fb8365cd9185ba"
       account:
-        $ref: "./Account.yaml"
+        #$ref: "./Account.yaml"
+        type: "object"
+        properties:
+          user_id:
+            type: "integer"
+            format: "int64"
+            example: "947"
+          email:
+            type: "string"
+            example: "user@example.com"
+          name:
+            type: "string"
+            example: "Joe"        
+          dob:
+            type: "string"
+            example: "2000-01-31"       
+          gender:
+            type: "string"
+            example: "male"
+          users:
+            type: "array"
+            xml:
+              wrapped: true
+            items:
+              xml:
+                name: "user_array"
+              #$ref: "./User_Array.yaml"
+              type: "object"
+              properties:
+                user_id:
+                  type: "integer"
+                  format: "int64"
+                  example: "947"
+                email:
+                  type: "string"
+                  example: "user@example.com"
+                name:
+                  type: "string"
+                  example: "Joe"    
+                avatar_url:
+                  type: "string"
+                  example: "null"   
+                access_code:
+                  type: "string"
+                  example: "null"   
+                account_admin:
+                  type: "boolean"
+                  example: "true"           
+                dob:
+                  type: "string"
+                  example: "2000-01-31"       
+                gender:
+                  type: "string"
+                  example: "male"        
+          bypass_cache: 
+            type: "boolean"
+          permissions:
+            type: "object"
+            properties:
+              show_all: 
+                type: "boolean"
+            resources:
+              type: "object"
+              properties:
