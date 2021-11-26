@@ -1,0 +1,5 @@
+    type: "object"
+    properties:
+      message:
+        type: "string"
+        example: "If you got this far, you are an admin"
