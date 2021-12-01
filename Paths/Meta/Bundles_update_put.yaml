@@ -1,0 +1,8 @@
+    type: "object"
+    properties:
+      api_key:
+        type: "string"
+        example: "ak_production_fe294da38860440191a814a14d1470b0"
+      active:
+        type: "boolean"
+        example: true

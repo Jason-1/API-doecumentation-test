@@ -1,0 +1,23 @@
+    put:
+      tags:
+      - "Meta"
+      summary: "Creates list of users with given input array"
+      description: ""
+      operationId: "SignIn"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      parameters:
+      - in: "items"
+        name: "items"
+        description: "Ordered array of slugs of items in this bundle."
+        required: "true"
+        schema:
+          $ref: "/Definitions/Meta/Bundles/Bundle_put_request.yaml"
+      responses:
+        200:
+          description: "DESCRIPTION"
+          # schema:
+          #   $ref: "PATH"

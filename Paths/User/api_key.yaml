@@ -13,11 +13,11 @@
         200:
           description: "successful operation"
           schema:
-            $ref: "../Definitions/User/api_key/api_key_200.yaml"
+            $ref: "/Definitions/User/api_key/api_key_200.yaml"
         404:
           description: "Not Found"
           schema:
-            $ref: "../Definitions/User/api_key/api_key_404.yaml"
+            $ref: "/Definitions/User/api_key/api_key_404.yaml"
         401:
           description: "Unauthorized"
       security:
@@ -37,7 +37,7 @@
         200:
           description: "successful operation"
           schema:
-            $ref: "../Definitions/User/api_key/api_key_200.yaml"
+            $ref: "/Definitions/User/api_key/api_key_200.yaml"
         401:
           description: "Unauthorized"
       security:

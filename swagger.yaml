@@ -17,17 +17,25 @@ tags:
   externalDocs:
     description: "API Documentation"
     url: "staging-store.shift72.com"
+- name: "Meta"
+  description: "The meta service is used to provide the details about film and TV shows."
+  externalDocs:
+    description: "API Documentation"
+    url: "staging-store.shift72.com"
 schemes:
 - "https"
 - "http"
 
 paths:
  /services/users/auth/sign_in:
-      $ref: "./Paths/sign_in.yaml"           
+      $ref: "./Paths/User/sign_in.yaml"           
  /services/users/v1/api_key:
-      $ref: "./Paths/api_key.yaml"
+      $ref: "./Paths/User/api_key.yaml"
  /services/users/auth/bouncer:
-       $ref: "./Paths/bouncer.yaml"  
+       $ref: "./Paths/User/bouncer.yaml"  
+
+ /services/meta/v1/bundles/[bundle_id]/items:
+       $ref: "./Paths/Meta/Bundles_create_put.yaml"  
 
 securityDefinitions:   
    api_key:

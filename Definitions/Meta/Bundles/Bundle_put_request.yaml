@@ -1,0 +1,8 @@
+    type: "object"
+    properties:
+      items:
+        type: "string"
+        example: "'["/film/52"]'"
+      active:
+        type: "boolean"
+        example: true
