@@ -32,7 +32,7 @@ paths:
  /services/users/v1/api_key:
       $ref: "./Paths/api_key.yaml"
  /services/users/auth/bouncer:
-       $ref: "./Paths/bouncer.yaml"  
+      $ref: "./Paths/bouncer.yaml"  
 
  /services/meta/v1/bundles/[bundle_id]/items:
        $ref: "./Paths/Bundles_create_put.yaml"  
