@@ -1,8 +1,13 @@
-    type: "object"
     properties:
-      items:
-        type: "string"
-        example: "'["/film/52"]'"
-      active:
-        type: "boolean"
-        example: true
+      user:
+        type: "object"
+        properties:
+          email:
+            type: "string"
+            example: "user@example.com"
+          password:
+            type: "string"
+            example: "passw0rd"
+          remember_me:
+            type: "boolean"
+            example: "false"

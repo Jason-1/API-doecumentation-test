@@ -10,12 +10,12 @@
       - "application/json"
       - "application/xml"
       parameters:
-      - in: "items"
-        name: "items"
+      - in: "body"
+        name: "body"
         description: "Ordered array of slugs of items in this bundle."
         required: "true"
         schema:
-          $ref: "./Definitions/Meta/Bundles/Bundle_put_request.yaml"
+          $ref: "../Definitions/Meta/Bundles/Bundle_put_request.yaml"
       responses:
         200:
           description: "DESCRIPTION"
