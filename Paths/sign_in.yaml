@@ -15,13 +15,13 @@
         description: "List of user object"
         required: "true"
         schema:
-          $ref: "../../Definitions/User/sign_in/sign_in_call.yaml"
+          $ref: "../Definitions/User/sign_in/sign_in_call.yaml"
       responses:
         200:
           description: "successful operation"
           schema:
-            $ref: "../../Definitions/User/sign_in/sign_in_200.yaml"
+            $ref: "../Definitions/User/sign_in/sign_in_200.yaml"
         422:
           description: "Failure"
           schema:
-            $ref: "../../Definitions/User/sign_in/sign_in_422.yaml"
+            $ref: "../Definitions/User/sign_in/sign_in_422.yaml"

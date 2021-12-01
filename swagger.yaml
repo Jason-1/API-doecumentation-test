@@ -28,14 +28,14 @@ schemes:
 
 paths:
  /services/users/auth/sign_in:
-      $ref: "./Paths/User/sign_in.yaml"           
+      $ref: "./Paths/sign_in.yaml"           
  /services/users/v1/api_key:
-      $ref: "./Paths/User/api_key.yaml"
+      $ref: "./Paths/api_key.yaml"
  /services/users/auth/bouncer:
-       $ref: "./Paths/User/bouncer.yaml"  
+       $ref: "./Paths/bouncer.yaml"  
 
  /services/meta/v1/bundles/[bundle_id]/items:
-       $ref: "./Paths/Meta/Bundles_create_put.yaml"  
+       $ref: "./Paths/Bundles_create_put.yaml"  
 
 securityDefinitions:   
    api_key:

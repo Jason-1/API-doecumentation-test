@@ -13,7 +13,7 @@
         200:
           description: "successful operation"
           schema:
-            $ref: "../../Definitions/User/bouncer/bouncer_200.yaml"
+            $ref: "../Definitions/User/bouncer/bouncer_200.yaml"
         401:
           description: "Unauthorized"
       security:
