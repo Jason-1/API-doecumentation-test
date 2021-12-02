@@ -1,0 +1,50 @@
+    type: "object"
+    properties:
+      id:
+        type: "int"
+        example: "11"
+      title:
+        type: "string"
+        example: "Five for a fiver"
+      tagline:
+        type: "string"
+        example: "The tagline for a bundle goes here"
+      description:
+        type: "string"
+        example: 
+      status:
+        type: "string"
+        description: "draft"
+      published_date:
+        type: "string"
+        example: 
+      seo_title:
+        type: "string"
+        example: 
+      seo_keywords:
+        type: "string"
+        example: 
+      seo_description:
+        type: "string"
+        example: 
+      header_image:
+        type: 
+        example: 
+      portrait_image:
+        type: 
+        example: 
+      landscape_image:
+        type: 
+        example: 
+      carousel_image:
+        type: 
+        example: 
+      created_at:
+        type: "string"
+        example: "2016-10-17T20:00:47.469Z"
+      updated_at:
+        type: "string"
+        example: "2016-10-17T20:00:47.469Z"
+      items:
+        type: "string"
+        example: []

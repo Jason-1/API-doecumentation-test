@@ -1,8 +1,8 @@
     get:
       tags:
       - "Meta"
-      summary: "Use this API to get the specified bundle. This API is only accessible to users who have the admin role."
-      description: ""
+      summary: "Get Bundle"
+      description: "Use this API to get the specified bundle. This API is only accessible to users who have the admin role."
       operationId: "GetBundle"
       consumes:
       - "application/json"
@@ -13,10 +13,10 @@
         200:
           description: "Success"
           schema:
-            $ref: "../Definitions/Meta/Bundles/Get_200.yaml"
+            $ref: "../Definitions/Meta/Bundles/Get/Get_200.yaml"
         404:
           description: "Bundle Doesn’t Exist"
           schema:
-            $ref: "../Definitions/Meta/Bundles/Get_404.yaml"
+            $ref: "../Definitions/Meta/Bundles/Get/Get_404.yaml"
         401:
           description: "Unauthorized"

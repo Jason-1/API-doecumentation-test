@@ -1,0 +1,7 @@
+    properties:
+      title:
+        type: "string"
+        example: "Five for a fiver"
+      tagline:
+        type: "string"
+        example: "Five films for five dollars"

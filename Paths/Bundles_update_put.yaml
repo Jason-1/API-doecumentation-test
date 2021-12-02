@@ -1,8 +1,23 @@
-    type: "object"
-    properties:
-      api_key:
-        type: "string"
-        example: "ak_production_fe294da38860440191a814a14d1470b0"
-      active:
-        type: "boolean"
-        example: true
+    put:
+      tags:
+      - "Meta"
+      summary: "Update Bundle"
+      description: "Creates list of users with given input array"
+      operationId: "UpdateBundle"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "Ordered array of slugs of items in this bundle."
+        required: "true"
+        schema:
+          $ref: "../Definitions/Meta/Bundles/Update/Bundle_update_request.yaml"
+      responses:
+        200:
+          description: "DESCRIPTION"
+          # schema:
+          #   $ref: "PATH"
