@@ -36,6 +36,8 @@ paths:
 
  /services/meta/v1/bundles/[bundle_id]/items:
        $ref: "./Paths/Bundles_create_put.yaml"  
+ /services/meta/v1/bundles/[bundle_id]:
+       $ref: "./Paths/Bundles_get.yaml"  
 
 securityDefinitions:   
    api_key:

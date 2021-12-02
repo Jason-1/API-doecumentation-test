@@ -1,13 +1,6 @@
     properties:
-      user:
-        type: "object"
-        properties:
-          email:
-            type: "string"
-            example: "user@example.com"
-          password:
-            type: "string"
-            example: "passw0rd"
-          remember_me:
-            type: "boolean"
-            example: "false"
+      items:
+        type: "string"
+        example: '["/film/52"]'
+            
+# I'm losing to this string

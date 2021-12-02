@@ -3,7 +3,7 @@
       - "Meta"
       summary: "Creates list of users with given input array"
       description: ""
-      operationId: "SignIn"
+      operationId: "CreateBundle"
       consumes:
       - "application/json"
       produces:
