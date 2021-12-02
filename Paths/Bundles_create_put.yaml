@@ -25,3 +25,22 @@
           description: "Unauthorized"
       security:
       - X-Auth-Admin: []
+
+
+
+    get:
+      tags:
+      - "Meta"
+      summary: "List all of the bundles"
+      description: "Use this API to get a list of bundles."
+      operationId: "BundlesIndex"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            $ref: "../Definitions/Meta/Bundles/Index/Index_200.yaml"

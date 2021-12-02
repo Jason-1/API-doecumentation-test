@@ -1,0 +1,63 @@
+#NOT WORKING - NEED TO FIGURE OUT ARRAY
+
+    type: "array"
+    properties:
+      id:
+        type: "int"
+        example: "1"
+      title:
+        type: "string"
+        example: "Test Bundle"
+      tagline:
+        type: "string"
+        example: "The tagline for a bundle goes here"
+      description:
+        type: "string"
+        example: 
+      status:
+        type: "string"
+        description: "draft"
+      published_date:
+        type: "string"
+        example: 
+      seo_title:
+        type: "string"
+        example: "metatitle"
+      seo_keywords:
+        type: "string"
+        example: "meta key words"
+      seo_description:
+        type: "string"
+        example: "metadescription"
+      header_image:
+        type: "string"
+        example: 
+      portrait_image:
+        type: "string"
+        example: 
+      landscape_image:
+        type: "string"
+        example: 
+      carousel_image:
+        type: "string"
+        example: 
+      created_at:
+        type: "string"
+        example: "2016-10-07T02:49:32.349Z"
+      updated_at:
+        type: "string"
+        example: "2016-10-07T02:50:43.921Z"
+      external_id:
+        type: "string"
+        example: "ID1234"
+      external_id2:
+        type: "string"
+        example: "ID5678"
+      items:
+        type: "string"
+        example: [
+      "/film/200",
+      "/film/110",
+      "/tv/4/season/1",
+      "/film/140",
+      "/film/52"]

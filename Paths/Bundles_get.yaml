@@ -22,3 +22,23 @@
           description: "Unauthorized"
       security:
       - X-Auth-Admin: []
+    delete:
+      tags:
+      - "Meta"
+      summary: "Delete Bundle"
+      description: "Use this API to delete a specific bundle. This API is only accessible to users who have the admin role."
+      operationId: "DeleteBundle"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      responses:
+        204:
+          description: "Success"
+        404:
+          description: "Unauthorized"
+          schema:
+            $ref: "../Definitions/Meta/Bundles/Get/Get_404.yaml"
+      security:
+      - X-Auth-Admin: []
