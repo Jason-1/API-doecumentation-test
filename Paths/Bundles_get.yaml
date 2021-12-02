@@ -20,3 +20,5 @@
             $ref: "../Definitions/Meta/Bundles/Get/Get_404.yaml"
         401:
           description: "Unauthorized"
+      security:
+      - X-Auth-Admin: []

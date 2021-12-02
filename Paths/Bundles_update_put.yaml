@@ -21,3 +21,5 @@
           description: "DESCRIPTION"
           # schema:
           #   $ref: "PATH"
+      security:
+      - X-Auth-Admin: []

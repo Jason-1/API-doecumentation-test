@@ -23,3 +23,5 @@
             $ref: "../Definitions/Meta/Bundles/Create/Create_200.yaml"
         401:
           description: "Unauthorized"
+      security:
+      - X-Auth-Admin: []
