@@ -1,61 +1,85 @@
-#NOT WORKING - NEED TO FIGURE OUT ARRAY
-
     type: "array"
-    properties:
-      id:
-        type: "int"
-        example: "1"
-      title:
-        type: "string"
-        example: "Test Bundle"
-      tagline:
-        type: "string"
-        example: "The tagline for a bundle goes here"
-      description:
-        type: "string"
-        example: 
-      status:
-        type: "string"
-        description: "draft"
-      published_date:
-        type: "string"
-        example: 
-      seo_title:
-        type: "string"
-        example: "metatitle"
-      seo_keywords:
-        type: "string"
-        example: "meta key words"
-      seo_description:
-        type: "string"
-        example: "metadescription"
-      header_image:
-        type: "string"
-        example: 
-      portrait_image:
-        type: "string"
-        example: 
-      landscape_image:
-        type: "string"
-        example: 
-      carousel_image:
-        type: "string"
-        example: 
-      created_at:
-        type: "string"
-        example: "2016-10-07T02:49:32.349Z"
-      updated_at:
-        type: "string"
-        example: "2016-10-07T02:50:43.921Z"
-      external_id:
-        type: "string"
-        example: "ID1234"
-      external_id2:
-        type: "string"
-        example: "ID5678"
-      items:
-        type: "string"
-        example: [
+    items:
+      type: object
+      properties:
+        id:
+          type: "int"
+        title:
+          type: "string"
+        tagline:
+          type: "string"
+        description:
+          type: "string"
+        status:
+          type: "string"
+        published_date:
+          type: "string"
+        seo_title:
+          type: "string"
+        seo_keywords:
+          type: "string"
+        seo_description:
+          type: "string"
+        header_image:
+          type: "string"
+        portrait_image:
+          type: "string"
+        landscape_image:
+          type: "string"
+        carousel_image:
+          type: "string"
+        bg_image:
+          type: "string"
+        promo_url:
+          type: "string"
+        created_at:
+          type: "string"
+        updated_at:
+          type: "string"
+        items:
+           type: "string"
+    example:
+      - id: 1 
+        title: 5 for a fiver
+        tagline: 5 films for five dollars
+        description: 5 films for five dollars
+        status: draft
+        published_date: 
+        seo_title: 5 for a fiver
+        seo_keywords: ""
+        seo_description: 5 films for five dollars
+        header_image: 
+        portrait_image: 
+        landscape_image: 
+        carousel_image:
+        bg_image:
+        promo_url:
+        created_at: "2016-10-06T02:42:10.359Z"
+        updated_at: "2016-10-11T02:57:53.360Z"
+        items: [
+      "/film/140",
+      "/film/141",
+      "/film/142",
+      "/film/143",
+      "/film/53"]
+      - id: 5 
+        title: Test Bundle
+        tagline: The tagline for a bundle goes here
+        description: 
+        status: draft
+        published_date: 
+        seo_title: metatitle
+        seo_keywords: meta key words
+        seo_description: metadescription
+        header_image: 
+        portrait_image: 
+        landscape_image: 
+        carousel_image:
+        bg_image:
+        promo_url:
+        created_at: "2016-10-07T02:49:32.349Z"
+        updated_at: "2016-10-07T02:50:43.921Z"
+        items: [
       "/film/200",
       "/film/110",
       "/tv/4/season/1",
