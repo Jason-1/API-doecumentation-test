@@ -25,9 +25,7 @@
           description: "Unauthorized"
       security:
       - X-Auth-Admin: []
-
-
-
+      
     get:
       tags:
       - "Meta"

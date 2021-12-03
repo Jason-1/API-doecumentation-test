@@ -17,7 +17,7 @@
         404:
           description: "Bundle Doesn’t Exist"
           schema:
-            $ref: "../Definitions/Meta/Bundles/Get/Get_404.yaml"
+            $ref: "../Definitions/Meta/Bundles/404.yaml"
         401:
           description: "Unauthorized"
       security:
@@ -37,10 +37,12 @@
       responses:
         204:
           description: "Success"
+        404:
+          description: "Bundle Doesn’t Exist"
+          schema:
+            $ref: "../Definitions/Meta/Bundles/404.yaml"
         401:
           description: "Unauthorized"
-          schema:
-            $ref: "../Definitions/Meta/Bundles/Get/Get_404.yaml"
       security:
       - X-Auth-Admin: []
 
@@ -61,12 +63,16 @@
         description: "The same as the Bundle data."
         required: "true"
         schema:
-          $ref: "../Definitions/Meta/Bundles/Create/Create_request.yaml"
+          $ref: "../Definitions/Meta/Bundles/Update/Bundle_update_request.yaml"
       responses:
         200:
           description: "Success"
           schema:
             $ref: "../Definitions/Meta/Bundles/Create/Create_200.yaml"
+        404:
+          description: "Bundle Doesn’t Exist"
+          schema:
+            $ref: "../Definitions/Meta/Bundles/404.yaml"
         401:
           description: "Unauthorized"
       security:

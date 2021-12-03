@@ -19,6 +19,10 @@
       responses:
         200:
           description: "DESCRIPTION"
+        404:
+          description: "Bundle Doesn’t Exist"
+          schema:
+            $ref: "../Definitions/Meta/Bundles/404.yaml"
           # schema:
           #   $ref: "PATH"
       security:

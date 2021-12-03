@@ -1,50 +1,54 @@
-    type: "object"
     properties:
-      id:
-        type: "int"
-        example: "11"
       title:
         type: "string"
         example: "Five for a fiver"
       tagline:
         type: "string"
-        example: "The tagline for a bundle goes here"
+        example: "Five films for five dollars"
       description:
         type: "string"
-        example: 
+        example: "Enjoy these five films for only $5."
       status:
         type: "string"
         example: "draft"
-      published_date:
+      published:
         type: "string"
         example: 
-      seo_title:
+      seo-title:
         type: "string"
         example: 
-      seo_keywords:
+      seo-keywords:
         type: "string"
         example: 
-      seo_description:
+      seo-description:
         type: "string"
         example: 
       header_image:
-        type: 
+        type: "string"
         example: 
       portrait_image:
-        type: 
+        type: "string"
         example: 
       landscape_image:
-        type: 
-        example: 
+        type: "string"
+        example: "Five for a fiver"
       carousel_image:
-        type: 
+        type: "string"
+        example: 
+      bg_image:
+        type: "string"
+        example: 
+      promo_url:
+        type: "string"
         example: 
       created_at:
         type: "string"
-        example: "2016-10-17T20:00:47.469Z"
+        example: "2016-10-17T19:48:25.950Z"
       updated_at:
         type: "string"
-        example: "2016-10-17T20:00:47.469Z"
+        example: "2016-10-17T19:48:25.950Z"
       items:
         type: "string"
         example: []
+
+
