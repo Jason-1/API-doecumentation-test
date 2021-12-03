@@ -1,0 +1,21 @@
+    get:
+      tags:
+      - "Meta"
+      summary: "Request owned bundles"
+      description: "Use this API to get a list of bundles that you have edit permissions for."
+      operationId: "OwnedBundle"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      responses:
+      #This needs to be an array
+        200:
+          description: "Success"
+          schema:
+            $ref: "../Definitions/Meta/Bundles/Get/Get_200.yaml"
+        # 200:
+        #   description: "No Owned Bundles"
+      security:
+      - X-Auth-Admin: []

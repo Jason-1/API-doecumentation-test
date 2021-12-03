@@ -35,11 +35,13 @@ paths:
       $ref: "./Paths/bouncer.yaml"  
 
  /services/meta/v1/bundles/[bundle_id]/items:
-       $ref: "./Paths/Bundles_update_put.yaml"  
+       $ref: "./Paths/Bundles_items.yaml"  
  /services/meta/v1/bundles/[bundle_id]:
-       $ref: "./Paths/Bundles_get.yaml"  
+       $ref: "./Paths/Bundles_bundle_id.yaml"  
  /services/meta/v1/bundles:
-       $ref: "./Paths/Bundles_create_put.yaml"  
+       $ref: "./Paths/Bundles_bundles.yaml"  
+ /services/meta/v1/bundles/owned:
+       $ref: "./Paths/Bundles_owned.yaml"
 
 securityDefinitions:   
    api_key:

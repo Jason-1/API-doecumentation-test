@@ -3,7 +3,7 @@
       - "Meta"
       summary: "Update Bundle"
       description: "Creates list of users with given input array"
-      operationId: "UpdateBundle"
+      operationId: "UpdateBundleItems"
       consumes:
       - "application/json"
       produces:
@@ -15,7 +15,7 @@
         description: "Ordered array of slugs of items in this bundle."
         required: "true"
         schema:
-          $ref: "../Definitions/Meta/Bundles/Update/Bundle_update_request.yaml"
+          $ref: "../Definitions/Meta/Bundles/Update/Bundle_items_update_request.yaml"
       responses:
         200:
           description: "DESCRIPTION"

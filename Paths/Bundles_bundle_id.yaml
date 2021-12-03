@@ -22,6 +22,7 @@
           description: "Unauthorized"
       security:
       - X-Auth-Admin: []
+
     delete:
       tags:
       - "Meta"
@@ -36,9 +37,37 @@
       responses:
         204:
           description: "Success"
-        404:
+        401:
           description: "Unauthorized"
           schema:
             $ref: "../Definitions/Meta/Bundles/Get/Get_404.yaml"
+      security:
+      - X-Auth-Admin: []
+
+    put:
+      tags:
+      - "Meta"
+      summary: "Update a bundle"
+      description: "Use this API to update a specific bundle. Note that if the items are updated, any users who have already purchased the bundle will not receive any new items added, or have any items taken away. This API is only accessible to users who have the admin role."
+      operationId: "UpdateBundle"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "The same as the Bundle data."
+        required: "true"
+        schema:
+          $ref: "../Definitions/Meta/Bundles/Create/Create_request.yaml"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            $ref: "../Definitions/Meta/Bundles/Create/Create_200.yaml"
+        401:
+          description: "Unauthorized"
       security:
       - X-Auth-Admin: []
