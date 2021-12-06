@@ -62,5 +62,5 @@ securityDefinitions:
        write:TEST: "write data" 
              
 definitions:
-  Sign_in_call:
-    $ref: "./Definitions/Sign_in_call.yaml"       
+  Index_200:
+    $ref: "./Definitions/Meta/Bundles/Index/Index_200.yaml"       
