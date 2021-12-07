@@ -43,10 +43,10 @@
                   example: "Joe"    
                 avatar_url:
                   type: "string"
-                  example: "null"   
+                  example: null   
                 access_code:
                   type: "string"
-                  example: "null"   
+                  example: null   
                 account_admin:
                   type: "boolean"
                   example: "true"           

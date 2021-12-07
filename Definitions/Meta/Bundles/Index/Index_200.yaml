@@ -44,16 +44,16 @@
         tagline: 5 films for five dollars
         description: 5 films for five dollars
         status: draft
-        published_date: 
+        published_date: null 
         seo_title: 5 for a fiver
         seo_keywords: ""
         seo_description: 5 films for five dollars
-        header_image: 
-        portrait_image: 
-        landscape_image: 
-        carousel_image:
-        bg_image:
-        promo_url:
+        header_image: null 
+        portrait_image: null 
+        landscape_image: null 
+        carousel_image: null
+        bg_image: null
+        promo_url: null
         created_at: "2016-10-06T02:42:10.359Z"
         updated_at: "2016-10-11T02:57:53.360Z"
         items: [
@@ -71,12 +71,12 @@
         seo_title: metatitle
         seo_keywords: meta key words
         seo_description: metadescription
-        header_image: 
-        portrait_image: 
-        landscape_image: 
-        carousel_image:
-        bg_image:
-        promo_url:
+        header_image: null 
+        portrait_image: null 
+        landscape_image: null 
+        carousel_image: null
+        bg_image: null
+        promo_url: null
         created_at: "2016-10-07T02:49:32.349Z"
         updated_at: "2016-10-07T02:50:43.921Z"
         items: [

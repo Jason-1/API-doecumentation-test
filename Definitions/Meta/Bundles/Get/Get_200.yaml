@@ -11,13 +11,13 @@
         example: "The tagline for a bundle goes here"
       description:
         type: "string"
-        example: 
+        example: null
       status:
         type: "string"
         description: "draft"
       published_date:
         type: "string"
-        example: 
+        example: null
       seo_title:
         type: "string"
         example: "metatitle"
@@ -29,16 +29,16 @@
         example: "metadescription"
       header_image:
         type: "string"
-        example: 
+        example: null
       portrait_image:
         type: "string"
-        example: 
+        example: null
       landscape_image:
         type: "string"
-        example: 
+        example: null
       carousel_image:
         type: "string"
-        example: 
+        example: null
       created_at:
         type: "string"
         example: "2016-10-07T02:49:32.349Z"
