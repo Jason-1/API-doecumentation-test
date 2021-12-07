@@ -1,6 +1,6 @@
     properties:
       items:
         type: "string"
-        example: '["/film/52"]'
+        example: ' ''["/film/52"]'' '
             
 # I'm losing to this string
