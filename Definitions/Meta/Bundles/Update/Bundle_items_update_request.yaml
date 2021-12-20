@@ -1,7 +1,8 @@
     properties:
       items:
         type: "string"
-        example: ' ''["/film/52"]'' '
+        example: "[\"\/film\/52\"]"
             
 # I'm losing to this string
 # JSON special chars issue?
+# Auto Escape Site here: https://www.freeformatter.com/json-escape.html#ad-output
