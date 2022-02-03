@@ -1,0 +1,23 @@
+    properties:
+      title:
+        type: "string"
+        example: "Five for a fiver"
+      tagline:
+        type: "string"
+        example: "Five films for five dollars"
+
+#        '{
+#    "film":{
+#      "title":"New Film",
+#      "status_id":1,
+#      "meta_data":{
+#        "trailers":[
+#        ],
+#        "bonuses":[
+#        ],
+#        "tags": [
+#          "tag ONE", "tag TWO"
+#        ]
+#      }
+#    }
+#  }'

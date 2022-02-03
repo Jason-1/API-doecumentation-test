@@ -1,0 +1,31 @@
+    post:
+      tags:
+      - "Meta"
+      summary: "Create a new film"
+      description: "Use this API to create a new film. This API is only accessible to users who have the admin role."
+      operationId: "CreateFilm"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "List of user object"
+        required: "true"
+        schema:
+          $ref: "../Definitions/Meta/Film/Create/Create_request.yaml"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            $ref: "../Definitions/Meta/Film/Create/Create_200.yaml"
+        422:
+          description: "Failure"
+          schema:
+            $ref: "../Definitions/Meta/Film/Create/Create_422.yaml"
+        401:
+          description: "Unauthorized"
+      security:
+      - X-Auth-Admin: []

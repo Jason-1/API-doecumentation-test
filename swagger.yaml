@@ -42,6 +42,8 @@ paths:
        $ref: "./Paths/Bundles_bundles.yaml"  
  /services/meta/v1/bundles/owned:
        $ref: "./Paths/Bundles_owned.yaml"
+ /services/meta/v2/film/create:
+       $ref: "./Paths/Film.yaml"
 
 securityDefinitions:   
    api_key:
