@@ -1,11 +1,11 @@
     properties:
       title:
         type: "string"
-        example: "Five for a fiver"
-      tagline:
-        type: "string"
-        example: "Five films for five dollars"
-
+        example: "film:"
+        properties:
+          title:
+            type: "string"
+            example: "film:"
 #        '{
 #    "film":{
 #      "title":"New Film",

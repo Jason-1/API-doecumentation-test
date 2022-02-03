@@ -2,7 +2,7 @@
     properties:
       id:
         type: "int"
-        example: "11"
+        example: "20"
       title:
         type: "string"
         example: "Five for a fiver"
