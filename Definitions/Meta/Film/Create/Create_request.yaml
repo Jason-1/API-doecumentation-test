@@ -19,7 +19,7 @@
                 example: [] 
               tags:
                 type: "string"
-                example: [] 
+                example: ["tag ONE", "tag TWO"] 
 
 
 #        '{

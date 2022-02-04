@@ -35,7 +35,7 @@
             example: "New Film"          
           tags: 
             type: "string"
-            example: []  
+            example: ["tag ONE", "tag TWO"]  
       status_id:
         type: "int"
         example: "1"
