@@ -1,11 +1,27 @@
     properties:
-      title:
-        type: "string"
-        example: "film:"
+      film:
+        type: "object"
         properties:
           title:
             type: "string"
-            example: "film:"
+            example: "New film"
+          status_id:
+            type: "int"
+            example: "1"
+          meta_data:
+            type: "object"
+            properties:
+              trailers:
+                type: "string"
+                example: [] 
+              bonuses:
+                type: "string"
+                example: [] 
+              tags:
+                type: "string"
+                example: [] 
+
+
 #        '{
 #    "film":{
 #      "title":"New Film",
