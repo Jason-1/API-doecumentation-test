@@ -27,6 +27,7 @@ schemes:
 - "http"
 
 paths:
+#Sign-ins and API Keys
  /services/users/auth/sign_in:
       $ref: "./Paths/sign_in.yaml"           
  /services/users/v1/api_key:
@@ -34,6 +35,7 @@ paths:
  /services/users/auth/bouncer:
       $ref: "./Paths/bouncer.yaml"  
 
+#Meta
  /services/meta/v1/bundles/[bundle_id]/items:
        $ref: "./Paths/Bundles_items.yaml"  
  /services/meta/v1/bundles/[bundle_id]:
