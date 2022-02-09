@@ -9,8 +9,6 @@
       produces:
       - "application/json"
       - "application/xml"
-      responses:
-      #This needs to be an array
         200:
           description: "Success"
           schema:
