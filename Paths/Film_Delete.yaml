@@ -1,0 +1,22 @@
+    post:
+      tags:
+      - "Films"
+      summary: "Delete a film and associated records"
+      description: "Use this API to delete a film and its associated records. This will remove the film from any plans, from user libraries, from collections and from recommendations. This will also delete all of the film’s media content from our servers. This API is only accessible to users who have the admin role."
+      operationId: "DeleteFilm"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      responses:
+        204:
+          description: "Success"
+        404:
+          description: "Film Doesn’t Exist"
+          schema:
+            $ref: "../Definitions/Meta/Film/Delete/Delete_404.yaml"
+        401:
+          description: "Unauthorized"
+      security:
+      - X-Auth-Admin: []

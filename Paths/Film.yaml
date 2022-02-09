@@ -1,6 +1,6 @@
     post:
       tags:
-      - "Meta"
+      - "Films"
       summary: "Create a new film"
       description: "Use this API to create a new film. This API is only accessible to users who have the admin role."
       operationId: "CreateFilm"
