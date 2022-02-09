@@ -1,6 +1,6 @@
     put:
       tags:
-      - "Meta"
+      - "Bundles"
       summary: "Update Bundle"
       description: "Creates list of users with given input array"
       operationId: "UpdateBundleItems"

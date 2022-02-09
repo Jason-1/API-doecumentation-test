@@ -1,6 +1,6 @@
     get:
       tags:
-      - "Meta"
+      - "Bundles"
       summary: "Get Bundle"
       description: "Use this API to get the specified bundle. This API is only accessible to users who have the admin role."
       operationId: "GetBundle"

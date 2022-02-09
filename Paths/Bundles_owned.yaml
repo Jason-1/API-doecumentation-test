@@ -1,6 +1,6 @@
     get:
       tags:
-      - "Meta"
+      - "Bundles"
       summary: "Request owned bundles"
       description: "Use this API to get a list of bundles that you have edit permissions for."
       operationId: "OwnedBundle"

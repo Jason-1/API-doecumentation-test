@@ -1,6 +1,6 @@
     post:
       tags:
-      - "Meta"
+      - "Bundles"
       summary: "Create Bundle"
       description: "Use this API to update only the items of a bundle. This API is only accessible to users who have the admin role."
       operationId: "CreateBundle"
