@@ -25,7 +25,7 @@
 
     delete:
       tags:
-      - "Meta"
+      - "Bundles"
       summary: "Delete Bundle"
       description: "Use this API to delete a specific bundle. This API is only accessible to users who have the admin role."
       operationId: "DeleteBundle"
@@ -48,7 +48,7 @@
 
     put:
       tags:
-      - "Meta"
+      - "Bundles"
       summary: "Update a bundle"
       description: "Use this API to update a specific bundle. Note that if the items are updated, any users who have already purchased the bundle will not receive any new items added, or have any items taken away. This API is only accessible to users who have the admin role."
       operationId: "UpdateBundle"

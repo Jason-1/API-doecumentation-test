@@ -28,7 +28,7 @@
       
     get:
       tags:
-      - "Meta"
+      - "Bundles"
       summary: "List all of the bundles"
       description: "Use this API to get a list of bundles."
       operationId: "BundlesIndex"
