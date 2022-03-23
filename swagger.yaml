@@ -18,11 +18,6 @@ tags:
   externalDocs:
     description: "API Documentation"
     url: "staging-store.shift72.com"
-- name: "Meta"
-  description: "The meta service is used to provide the details about film and TV shows."
-  externalDocs:
-    description: "API Documentation"
-    url: "staging-store.shift72.com"
 - name: "Films"
   description: "Endpoints related to creating, deleting and managing Films"
   externalDocs:

@@ -1,4 +1,4 @@
-    post:
+    delete:
       tags:
       - "Films"
       summary: "Delete a film and associated records"
