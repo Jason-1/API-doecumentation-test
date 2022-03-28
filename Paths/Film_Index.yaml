@@ -3,7 +3,7 @@
       - "Films"
       summary: "List all films on the site"
       description: "Use this API to display a list of all of the films available on the site. This will include films that are in a draft status. Filter on the status_id to get a list of films that are published. The external id parameters are returned for X-Auth Admin requests."
-      operationId: "CreateFilm"
+      operationId: "IndexFilm"
       consumes:
       - "application/json"
       produces:
@@ -16,3 +16,5 @@
             $ref: "../Definitions/Meta/Film/Index/Index_200.yaml"
       security:
       - X-Auth-Admin: []
+
+      #Not showing up, don't know why
