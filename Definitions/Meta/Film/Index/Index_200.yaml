@@ -10,37 +10,96 @@
         type: "int"  
       published_date:
         type: "string"
-      external_id:
+      slug:
         type: "string"
-      external_id2:
+      portrait_image:
         type: "string"
+      landscape_image:
+        type: "string"
+      header_image:
+        type: "string"
+      carousel_image:
+        type: "string"
+      classification_image:
+        type: "string"
+      background_image:
+        type: "string"
+      seo_image:
+        type: "string"
+#    "slug": "/film/2786",
+#    "portrait_image": null,
+#    "landscape_image": null,
+#    "header_image": null,
+#    "carousel_image": null,
+#    "classification_image": null,
+#    "background_image": null,
+#    "seo_image": null
     example:
       - id: 80 
         title: Please Subscribe  
         imdb_id: http://www.imdb.com/title/tt2368182/?ref_=nv_sr_1
         status_id: 2
         published_date: "2014-09-01T12:00:00.000Z"
-        external_id: ID1234
-        external_id2: ID5678
+        slug": "/film/1"
+        portrait_image: null
+        landscape_image: null
+        header_image: null
+        carousel_image: null
+        classification_image: null
+        background_image: null
+        seo_image: null
       - id: 49 
         title: Example Film  
         imdb_id:
         status_id: 1
         published_date: "2014-06-26T09:56:00.000Z"
-        external_id: ID1234
-        external_id2: ID5678
+        slug": "/film/2"
+        portrait_image: null
+        landscape_image: null
+        header_image: null
+        carousel_image: null
+        classification_image: null
+        background_image: null
+        seo_image: null
       - id: 76 
         title: Verity's Summer  
         imdb_id: null
         status_id: 2
         published_date: "2014-09-07T12:00:00.000Z"
-        external_id: ID1234
-        external_id2: ID5678
+        slug": "/film/3"
+        portrait_image: null
+        landscape_image: null
+        header_image: null
+        carousel_image: null
+        classification_image: null
+        background_image: null
+        seo_image: null
       - id: 81 
         title: King Lee 
         imdb_id: http://www.imdb.com/title/tt2637156/?ref_=fn_al_tt_1
         status_id: 2
         published_date: "2015-03-27T01:46:12.871Z"
-        external_id: ID1234
-        external_id2: ID5678
+        slug": "/film/4"
+        portrait_image: null
+        landscape_image: null
+        header_image: null
+        carousel_image: null
+        classification_image: null
+        background_image: null
+        seo_image: null
 
+
+
+#    "id": 2786,
+#    "title": "Joenoe Teste filme",
+#    "imdb_id": null,
+#    "status_id": 2,
+#    "published_date": "2022-01-11T00:41:03.301Z",
+#    "slug": "/film/2786",
+#    "portrait_image": null,
+#    "landscape_image": null,
+#    "header_image": null,
+#    "carousel_image": null,
+#    "classification_image": null,
+#    "background_image": null,
+#    "seo_image": null
