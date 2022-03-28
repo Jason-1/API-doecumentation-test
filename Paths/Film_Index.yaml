@@ -1,4 +1,4 @@
-    Get:
+    get:
       tags:
       - "Films"
       summary: "List all films on the site"
