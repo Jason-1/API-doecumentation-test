@@ -9,13 +9,6 @@
       produces:
       - "application/json"
       - "application/xml"
-      parameters:
-      - in: "body"
-        name: "body"
-        description: "List of user object"
-        required: "true"
-        schema:
-          $ref: "../Definitions/Meta/Film/Create/Create_request.yaml"
       responses:
         200:
           description: "successful operation"
