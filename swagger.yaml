@@ -57,6 +57,8 @@ paths:
        $ref: "./Paths/Film.yaml"
  /services/meta/v2/film/[id]:
        $ref: "./Paths/Film_Delete.yaml"
+ /services/meta/v2/film/index:
+       $ref: "./Paths/Film_Index.yaml"
 
 securityDefinitions:   
    api_key:

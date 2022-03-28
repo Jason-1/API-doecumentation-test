@@ -1,0 +1,25 @@
+    Get:
+      tags:
+      - "Films"
+      summary: "List all films on the site"
+      description: "Use this API to display a list of all of the films available on the site. This will include films that are in a draft status. Filter on the status_id to get a list of films that are published. The external id parameters are returned for X-Auth Admin requests."
+      operationId: "CreateFilm"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "List of user object"
+        required: "true"
+        schema:
+          $ref: "../Definitions/Meta/Film/Create/Create_request.yaml"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            $ref: "../Definitions/Meta/Film/Index/Index_200.yaml"
+      security:
+      - X-Auth-Admin: []
