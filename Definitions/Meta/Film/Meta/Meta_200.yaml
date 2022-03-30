@@ -1,0 +1,155 @@
+    type: "object"
+    properties:
+      id:
+        type: int
+        example: 1
+      title:
+        type: string
+        example: test
+      imdb_id:
+        type: string
+        example: test
+      crew:
+        type: array
+        items:
+          type: object
+          properties: 
+            name:
+              type: string
+              example: test
+            job:
+              type: string
+              example: test
+      cast:
+        type: array
+        items:
+          type: object
+          properties: 
+            name:
+              type: string
+              example: test
+            job:
+              type: string
+              example: test
+            character:
+              type: string
+              example: test
+      studio:
+        type: array
+        items:
+          type: object
+          properties: 
+            name:
+              type: string
+              example: test
+      trailers:
+        type: array
+        items:
+          type: object
+          properties: 
+            name:
+              type: string
+              example: test
+            URL:
+              type: string
+              example: test
+            type:
+              type: string
+              example: test
+      tagline:
+        type: string
+        example: test
+      overview:
+        type: string
+        example: test
+      release_date:
+        type: string
+        example: test
+      runtime:
+        type: string
+        example: test
+      certification:
+        type: string
+        example: test
+      countries:
+        type: string
+        example: test
+      languages:
+        type: string
+        example: test
+      bonuses:
+        type: array
+        items:
+          type: object
+          properties: 
+            number:
+              type: int
+              example: 1
+            title:
+              type: string
+              example: test
+            description:
+              type: string
+              example: test
+            runtime:
+              type: int
+              example: 1
+            tags:
+              type: string    
+              example:  test
+      subtitles:
+        type: string
+        example: test
+      genres:
+        type: string
+        example: test
+      status_id:
+        type: string
+        example: test
+      published_date:
+        type: string
+        example: test
+      seo_title:
+        type: string
+        example: test
+      seo_keywords:
+        type: string
+        example: test
+      seo_description:
+        type: string
+        example: test
+      portait_image:
+        type: string
+        example: test
+      landscape_image:
+        type: string
+        example: test
+      header_image:
+        type: string
+        example: test
+      carousel_image:
+        type: string
+        example: test
+      classification_image:
+        type: string
+        example: test
+      background_image:
+        type: string
+        example: test
+      seo_image:
+        type: string
+        example: test
+      external_id:
+        type: string
+        example: test
+      external_id2:
+        type: string
+        example: test
+      tags:
+        type: string
+        example: test
+      slug:
+        type: string
+        example: test
+          
+# set up as an array, needs to change.

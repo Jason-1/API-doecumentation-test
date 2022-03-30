@@ -16,5 +16,3 @@
             $ref: "../Definitions/Meta/Film/Index/Index_200.yaml"
       security:
       - X-Auth-Admin: []
-
-      #Not showing up, don't know why
