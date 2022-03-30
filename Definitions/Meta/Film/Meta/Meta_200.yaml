@@ -2,13 +2,13 @@
     properties:
       id:
         type: int
-        example: 1
+        example: 71
       title:
         type: string
-        example: test
+        example: Grabbers
       imdb_id:
         type: string
-        example: test
+        example: http://www.imdb.com/title/tt1525366/?ref_=nv_sr_
       crew:
         type: array
         items:
@@ -16,10 +16,11 @@
           properties: 
             name:
               type: string
-              example: test
             job:
               type: string
-              example: test
+        example:
+          - name: Kevin Lehane
+            job: Writer
       cast:
         type: array
         items:
@@ -27,13 +28,20 @@
           properties: 
             name:
               type: string
-              example: test
             job:
               type: string
-              example: test
             character:
               type: string
-              example: test
+        example:
+          - name: Richard Coyle
+            job: ""
+            character: Garda Ciarán O'Shea
+          - name: Ruth Bradley
+            job: ""
+            character: Garda Lisa Nolan
+          - name: Russell Tovey
+            job: ""
+            character: Dr. Adam Smith
       studio:
         type: array
         items:
@@ -41,42 +49,45 @@
           properties: 
             name:
               type: string
-              example: test
+        example: 
+          - name: Forward Films
+          - name: High Treason Productions
+          - name: Irish Film Board
       trailers:
         type: array
         items:
           type: object
           properties: 
-            name:
-              type: string
-              example: test
             URL:
               type: string
               example: test
             type:
               type: string
               example: test
+        example: 
+          - URL: https://dhtm9e8kk4phk.cloudfront.net/bff2364d-bce0-4ade-a10e-cd6bba644dc1/grabbers_480_2000_trailer_kb_trailer_HD.mp4
+            type: ""
       tagline:
         type: string
-        example: test
+        example: Take Your best Shot
       overview:
         type: string
-        example: test
+        example: The Sundance smash hit has arrived What do you do when blood-sucking aliens invade your hometown? Kick arse What do you do if they're allergic to alcohol? Get pissed, then kick arse Only the Irish could dream up such a scenario. GRABBERS is 90 minutes of drunken shenanigans that will have you, literally, running to the bar Drink up OR DIE\n\nWhen the tiny Irish township of Erin Island is invaded by bloodthirsty aliens from deep space, all hope appears lost. Salvation appears with the discovery that the octopus-like aliens are terminally allergic to alcohol-tainted human blood and the local townsfolk decide that its time to get drunk and get even\n\nGRABBERS affectionately tips a tentacle to many creature feature traditions while raising a pint in the name of slime covered carnage and saturates you in both. A feckin' scary laff-fest to be sure
       release_date:
         type: string
-        example: test
+        example: "2014-10-29T11:00:00.000Z"
       runtime:
         type: string
-        example: test
+        example: "94"
       certification:
         type: string
-        example: test
+        example: PG
       countries:
         type: string
-        example: test
+        example: [Ireland]
       languages:
         type: string
-        example: test
+        example: [English]
       bonuses:
         type: array
         items:
@@ -84,70 +95,80 @@
           properties: 
             number:
               type: int
-              example: 1
             title:
               type: string
-              example: test
             description:
               type: string
-              example: test
             runtime:
               type: int
-              example: 1
             tags:
-              type: string    
-              example:  test
+              type: string  
+        example:  
+          - number: 1
+            title: The Making of Grabbers
+            description: The making of Grabbers
+            runtime: 10
+            tags:
+          - number: 2
+            title: Behind the scenes Grabbers
+            description: Behind the scenes footage during the making of grabbers
+            runtime: 32
+            tags: [ behind the scenes ]
       subtitles:
         type: string
-        example: test
+        example: Gaelic
       genres:
         type: string
-        example: test
+        example: [
+      "Comedy",
+      "Horror",
+      "Science Fiction"
+      ]
       status_id:
-        type: string
-        example: test
+        type: int
+        example: 2
       published_date:
         type: string
-        example: test
+        example: "2014-09-07T12:00:00.000Z"
       seo_title:
         type: string
-        example: test
+        example:
       seo_keywords:
         type: string
-        example: test
+        example:
       seo_description:
         type: string
-        example: test
+        example:
       portait_image:
         type: string
-        example: test
+        example:
       landscape_image:
         type: string
-        example: test
+        example:
       header_image:
         type: string
-        example: test
+        example:
       carousel_image:
         type: string
-        example: test
+        example:
       classification_image:
         type: string
-        example: test
+        example:
       background_image:
         type: string
-        example: test
+        example:
       seo_image:
         type: string
-        example: test
+        example:
       external_id:
         type: string
-        example: test
+        example: ID1234
       external_id2:
         type: string
-        example: test
+        example: ID5678
       tags:
         type: string
-        example: test
+        example: [ "comedy", "irish film", "science fiction" ]
       slug:
         type: string
         example: test
