@@ -1,0 +1,18 @@
+    get:
+      tags:
+      - "Films"
+      summary: "Request owned films"
+      description: "Use this API to get a list of films that you have edit permissions for."
+      operationId: "FilmOwned"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            $ref: "../Definitions/Meta/Film/Owned/Owned_200.yaml"
+      security:
+      - X-Auth-Admin: []

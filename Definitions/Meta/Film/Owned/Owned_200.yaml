@@ -1,0 +1,55 @@
+    type: "object"
+    properties:
+      id:
+        type: "int"
+      title:
+        type: "string"
+      imdb_id:
+        type: "string"
+      status_id:
+        type: "int"
+      published_date:
+        type: "string"
+      slug:
+        type: "string"
+      portrait_image:
+        type: "string"
+      landscape_image:
+        type: "string"
+      header_image:
+        type: "string"
+      carousel_image:
+        type: "string"
+      classification_image:
+        type: "string"
+      background_image:
+        type: "string"
+      publishing_state:
+        type: "string"
+    example:
+      - id: 8065 
+        title: Home Run Showdown
+        imdb_id: null
+        status_id: 2
+        published_date: "2018-05-07T00:22:40.492Z"
+        slug: /film/8065
+        portrait_image: /posters-and-backdrops/282x422/film/8065/4a3acff37db0d74019cb434a236c430b.jpg
+        landscape_image: /posters-and-backdrops/585x330/film/8065/1ca3cf98b250095f34c8279112b7b6ac.jpg
+        header_image: null
+        carousel_image: /posters-and-backdrops/1600x600/film/8065/f56fb84a2b2662b31c85a65b4b873e23.jpg
+        classification_image: null
+        background_image: /posters-and-backdrops/1600x1100/film/8065/8fcb303737ffd9bbf4c9541eed32d31b.jpg
+        publishing_state: complete
+      - id: 8061 
+        title: Trailer Made
+        imdb_id: null
+        status_id: 2
+        published_date: "2018-05-06T23:56:29.610Z"
+        slug: /film/8061
+        portrait_image: /posters-and-backdrops/282x422/film/8061/57c741e9c25a0f1e66fddaba6da7f8a9.jpg
+        landscape_image: /posters-and-backdrops/585x330/film/8061/a234ad1cc83c5c05073708a53dd80e9d.jpg
+        header_image: null
+        carousel_image: /posters-and-backdrops/1600x600/film/8061/1a37e1bb0cd7902d6c47ccb56c61bc35.jpg
+        classification_image: null
+        background_image: /posters-and-backdrops/1600x1100/film/8061/95a496114261fe4d029c5ecba4762013.jpg
+        publishing_state: complete

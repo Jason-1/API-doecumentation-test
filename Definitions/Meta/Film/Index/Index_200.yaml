@@ -26,14 +26,6 @@
         type: "string"
       seo_image:
         type: "string"
-#    "slug": "/film/2786",
-#    "portrait_image": null,
-#    "landscape_image": null,
-#    "header_image": null,
-#    "carousel_image": null,
-#    "classification_image": null,
-#    "background_image": null,
-#    "seo_image": null
     example:
       - id: 80 
         title: Please Subscribe  
@@ -87,19 +79,3 @@
         classification_image: null
         background_image: null
         seo_image: null
-
-
-
-#    "id": 2786,
-#    "title": "Joenoe Teste filme",
-#    "imdb_id": null,
-#    "status_id": 2,
-#    "published_date": "2022-01-11T00:41:03.301Z",
-#    "slug": "/film/2786",
-#    "portrait_image": null,
-#    "landscape_image": null,
-#    "header_image": null,
-#    "carousel_image": null,
-#    "classification_image": null,
-#    "background_image": null,
-#    "seo_image": null
