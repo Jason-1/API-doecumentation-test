@@ -1,0 +1,57 @@
+    example:
+    - crew:
+      - name: Kevin Lehane
+        job: Writer
+      - name: Jon Wright
+        job: Director
+      cast:
+      - name: Richard Coyle
+        job: ""
+        character: Garda Ciarán O'Shea
+      - name: Ruth Bradley
+        job: ""
+        character: Garda Lisa Nolan
+      - name: Russell Tove
+        job: ""
+        character: Dr. Adam Smith
+      studio:
+      - name: Forward Films
+      - name: High Treason Productions
+      - name: Irish Film Board
+      trailers:
+      - URL: https://dhtm9e8kk4phk.cloudfront.net/bff2364d-bce0-4ade-a10e-cd6bba644dc1/grabbers_480_2000_trailer_kb_trailer_HD.mp4
+        type: ""
+      tagline: Take Your best Shot
+      overview: The Sundance smash hit has arrived What do you do when blood-sucking aliens invade your hometown? Kick arse What do you do if they're allergic to alcohol? Get pissed, then kick arse Only the Irish could dream up such a scenario. GRABBERS is 90 minutes of drunken shenanigans that will have you, literally, running to the bar Drink up OR DIE\n\nWhen the tiny Irish township of Erin Island is invaded by bloodthirsty aliens from deep space, all hope appears lost. Salvation appears with the discovery that the octopus-like aliens are terminally allergic to alcohol-tainted human blood and the local townsfolk decide that its time to get drunk and get even\n\nGRABBERS affectionately tips a tentacle to many creature feature traditions while raising a pint in the name of slime covered carnage and saturates you in both. A feckin' scary laff-fest to be sure
+      release_date: "2014-10-29T11:00:00.000Z"
+      runtime: 94
+      countries: ["Ireland"]
+      languages: ["English"]
+      bonuses: 
+      - number: 1
+        title: The Making of Grabbers
+        description: The Making of Grabbers
+        runtime: 10
+        tags: 
+      - number: 2
+        title: Behind the scenes Grabbers
+        description: Behind the scenes footage during the making of grabbers
+        runtime: 32
+        tags: 
+      published: true
+
+      classifications: au
+      - label: G
+        description: Suitable for General Audiences    
+      classifications: nz
+      - label: G
+        description: Suitable for General Audiences 
+
+      subtitles: ["Gaelic"]
+      title: "Gaelic"
+      slug: "/film/71"
+      film_id: 71
+      id: 71
+      recommendations: ["/film/73","/film/65","/film/93","/tv/1/season/1","/film/117","/film/81","/film/94","/film/70","/film/318","/film/83"]
+      genres: ["Comedy","Horror","Science Fiction"]
+      tags: ["irish film"]

@@ -63,6 +63,8 @@ paths:
        $ref: "./Paths/Film_Meta.yaml"
  /services/meta/v2/film/owned:
        $ref: "./Paths/Film_Owned.yaml"
+ /services/meta/v2/film/[id],[id],[id]/show_multiple:
+       $ref: "./Paths/Film_Meta_Multiple.yaml"      
 
 securityDefinitions:   
    api_key:

@@ -1,0 +1,18 @@
+    get:
+      tags:
+      - "Films"
+      summary: "Request film meta data for multiple films"
+      description: "Use this API to get meta data for multiple films."
+      operationId: "FilmMetaMultiple"
+      consumes:
+      - "application/json"
+      produces:
+      - "application/json"
+      - "application/xml"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            $ref: "../Definitions/Meta/Film/Meta/Meta_multiple_200.yaml"
+      security:
+      - X-Auth-Admin: []

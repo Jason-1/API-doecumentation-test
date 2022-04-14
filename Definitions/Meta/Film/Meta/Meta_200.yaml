@@ -172,5 +172,3 @@
       slug:
         type: string
         example: test
-          
-# set up as an array, needs to change.
