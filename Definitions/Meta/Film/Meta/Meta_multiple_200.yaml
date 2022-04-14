@@ -116,10 +116,10 @@
 #        type: string
 #      seo_image:
 #        type: string
-#      external_id:
-#        type: string
-#      external_id2:
-#        type: string
+      external_id:
+        type: string
+      external_id2:
+        type: string
       tags:
         type: string
     example:
@@ -176,6 +176,93 @@
       recommendations: ["/film/73","/film/65","/film/93","/tv/1/season/1","/film/117","/film/81","/film/94","/film/70","/film/318","/film/83"]
       genres: ["Comedy","Horror","Science Fiction"]
       tags: ["irish film"]
+
+
+
+
+    - crew:
+      - name: Dan Dobi
+        job: Director
+      cast:
+      - name: Grace Helbig
+        job: ""
+        character: Daily Grace
+      - name: Dan Brown
+        job: ""
+        character: PogoBat
+      - name: Hannah Hart
+        job: ""
+        character: My Harto
+      studio:
+      - name: Dobi Media LLC
+      trailers:
+      - URL: https://dhtm9e8kk4phk.cloudfront.net/be3012eb-a7d2-404c-b534-69e054b80dd3/please_subscribe_480_2000_trailer_kb_trailer_HD.mp4
+        type: "Full"
+      tagline: A Documentary About Youtubers
+      overview: Please Subscribe is an intimate look into the lives of YouTubers and answers the question that many family members and friends love to ask you. What is a YouTuber? This documentary was born out of my desire to be able to answer this question for myself. I've been making YouTube videos for years and yet there was something so much more to the community and the spirit of the content creators than I was able to explain. I brought this idea to the community and through their amazing support, I decided to interview and follow some of the site's top content creators to try to find what drives them, where they come from, and where they see themselves going.
+      release_date: "2014-09-18T12:00:00.000Z"
+      runtime: 90
+      countries: ["United States"]
+      languages: ["English"]
+      title: "Please Subscribe"
+      slug: "/film/70"
+      film_id: 80
+      id: 80
+      recommendations: [""]
+      external_id: "ID1234a"
+      external_id2: "ID5678a"
+      genres: ["Documentary"]
+
+
+
+
+
+    - crew:
+      - name: David Cholewa
+        job: Director
+      - name: Vincent Julé
+        job: Writer
+      cast:
+      - name: Fabian Wolfrom
+        job: ""
+        character: Chris
+      - name: Blandine Marmigère
+        job: ""
+        character: Claire
+      studio:
+      - name: DC Medias
+      trailers:
+      - URL: https://indiereign02-a.akamaihd.net/b235a6a9-6207-4c53-9910-a69bcfc8f47d/dead_shadows_480_2000_trailer_kb_trailer_HD.mp4
+        type: "Full"
+      tagline: Will it be the end of the world? This film brings out the fear in everyone...
+      overview: Chris' parents were murdered on the same day the Halley comet was visible from Earth. Eleven years later, a new comet lights up the Parisian sky, but as the night goes on, people begins to transform into horrible creatures.
+      release_date: "2014-09-29T11:00:00.000Z"
+      runtime: 75
+      countries: ["France"]
+      languages: ["French"]
+
+      bonuses: 
+      - number: 1
+        title: new bonus
+        description: fsadfdsa
+        runtime: 34
+        tags: 
+      published: true
+      classifications: 
+      - label: G
+        description: Suitable for General Audiences    
+      - label: G
+        description: Suitable for General Audiences 
+      subtitles: ["English"]    
+      title: "Dead Shadows"
+      slug: "/film/94"
+      film_id: 94
+      id: 94
+      recommendations: [""]
+      external_id: "ID1234b"
+      external_id2: "ID5678b"
+      genres: ["Horror","Science Fiction"]
+      tags: ["body horror"]
 
 
 
